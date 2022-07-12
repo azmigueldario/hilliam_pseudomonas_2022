@@ -263,6 +263,6 @@ After having the singularity container ready, we can assemble our genomes.
 #SBATCH --ntasks=1
 #SBATCH --mem=8gb # 8 GB of memory
 #SBATCH --time=00:50:00
-#SBATCH --job-name= singularity build of shovill assembler
+#SBATCH --job-name="shovill assembly hilliam data"
 #SBATCH --chdir= /home/mdprieto/scratch/
 ```
