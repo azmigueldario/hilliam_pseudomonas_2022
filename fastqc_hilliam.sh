@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --account=def-whsiao-ab
-#SBATCH --mem=25gb # 24 GB of memory
+#SBATCH --mem=25gb # 25 GB of memory
 #SBATCH --time=06:00:00
 #SBATCH --job-name="fastqc of hilliam trimmed reads"
 #SBATCH --chdir=/scratch/mdprieto/
@@ -15,8 +15,8 @@ module load nixpkgs/16.09
 module load fastqc/0.11.9
 
 # establish path for output and input
-mkdir -p fastqc_hilliam
-OUTPUT_DIR="/home/mdprieto/scratch/results/fastqc_hilliam/"
+mkdir -p /home/mdprieto/scratch/results_hilliam/fastqc/
+OUTPUT_DIR="/home/mdprieto/scratch/results_hilliam/fastqc_hilliam/"
 INPUT_DIR="/project/6056895/mdprieto/hilliam_pseudomonas/bronchiectasis_reads"
 
 ################################## fastqc #########################################
@@ -34,4 +34,4 @@ done
 module load python/3.10.2
 
 cd $OUTPUT_DIR
-multiqc .
+multiqc . 
