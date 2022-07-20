@@ -1,0 +1,382 @@
+#genome_asm_accession	#genome_name	#protein_accession	#protein_name	#pathogen_association	#num_hit_genera	#hit_genera_list
+GCF_000006765.1	Pseudomonas aeruginosa PAO1	NP_249911.1	hypothetical protein PA1220 [Pseudomonas aeruginosa PAO1]	pathogen	3	Burkholderia;Pseudomonas;Serratia
+GCF_000008185.1	Treponema denticola ATCC 35405	NP_972117.1	pathogen-specific surface antigen [Treponema denticola ATCC 35405]	common	87	Achromobacter;Actinobacillus;Actinomyces;Advenella;Aggregatibacter;Aromatoleum;Azoarcus;Azospira;Azospirillum;Bartonella;Beijerinckia;Bifidobacterium;Blastochloris;Bordetella;Brenneria;Brucella;Burkholderia;Campylobacter;Candidatus Liberibacter;Castellaniella;Chelativorans;Chromobacterium;Citrobacter;Collimonas;Dechloromonas;Desulfovibrio;Dialister;Escherichia;Ezakiella;Filifactor;Flexistipes;Frischella;Fusobacterium;Gardnerella;Geobacter;Gibbsiella;Gilliamella;Haemophilus;Herbaspirillum;Hyphomicrobium;Janthinobacterium;Jeongeupia;Klebsiella;Mageeibacillus;Magnetospirillum;Martelella;Methylobacterium;Mobiluncus;Morganella;Paenibacillus;Pandoraea;Paraburkholderia;Paracoccus;Parascardovia;Parvimonas;Pasteurella;Pectobacterium;Pelosinus;Pragia;Propionimicrobium;Proteus;Providencia;Pseudogulbenkiania;Pseudomonas;Psychromonas;Raoultella;Rhodomicrobium;Rhodopseudomonas;Rhodospirillum;Rubrivivax;Salmonella;Scardovia;Selenomonas;Serratia;Snodgrassella;Sodalis;Spirochaeta;Streptomyces;Sulfuritalea;Sulfurospirillum;Thauera;Thiolapillus;Treponema;Verminephrobacter;Vibrio;Wolinella;Yersinia
+GCF_000009125.1	Ralstonia solanacearum GMI1000	WP_011000115.1	hypothetical protein [Ralstonia solanacearum]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000009485.1	Burkholderia cenocepacia J2315	WP_006484140.1	MULTISPECIES: hypothetical protein [Burkholderia cepacia complex]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000009485.1	Burkholderia cenocepacia J2315	WP_006488889.1	MULTISPECIES: hypothetical protein [Burkholderia cepacia complex]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000010545.1	Burkholderia multivorans ATCC 17616	WP_012211017.1	hypothetical protein [Burkholderia multivorans]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000012365.1	Burkholderia thailandensis E264	WP_009896459.1	hypothetical protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000012945.1	Burkholderia lata	WP_011350431.1	hypothetical protein [Burkholderia lata]	pathogen	2	Pseudomonas;Vibrio
+GCF_000012945.1	Burkholderia lata	WP_041492698.1	hypothetical protein [Burkholderia lata]	pathogen	2	Pseudomonas;Vibrio
+GCF_000012945.1	Burkholderia lata	WP_041492699.1	hypothetical protein [Burkholderia lata]	pathogen	2	Pseudomonas;Vibrio
+GCF_000013605.1	Rhodoferax ferrireducens T118	WP_011458596.1	hypothetical protein [Rhodoferax ferrireducens]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000014085.1	Burkholderia cenocepacia AU 1054	WP_050768794.1	hypothetical protein [Burkholderia cenocepacia]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000014625.1	Pseudomonas aeruginosa UCBPP-PA14	WP_003111331.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000014625.1	Pseudomonas aeruginosa UCBPP-PA14	WP_003137137.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	4	Burkholderia;Photorhabdus;Pseudomonas;Yersinia
+GCF_000017205.1	Pseudomonas aeruginosa PA7	WP_012076638.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	1	Burkholderia
+GCF_000018505.1	Burkholderia multivorans ATCC 17616	WP_012211017.1	hypothetical protein [Burkholderia multivorans]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000020925.1	Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853	WP_001122242.1	type III secretion system effector phosphothreonine lyase SpvC [Salmonella enterica]	pathogen	4	Burkholderia;Escherichia;Pseudomonas;Shigella
+GCF_000022645.2	Burkholderia glumae BGR1	WP_012733186.1	hypothetical protein [Burkholderia glumae]	pathogen	7	Acidovorax;Brenneria;Burkholderia;Erwinia;Pantoea;Pseudomonas;Ralstonia
+GCF_000022645.2	Burkholderia glumae BGR1	WP_012733776.1	DUF1842 domain-containing protein [Burkholderia glumae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000022645.2	Burkholderia glumae BGR1	WP_012734939.1	hypothetical protein [Burkholderia glumae]	pathogen	3	Burkholderia;Pectobacterium;Pseudomonas
+GCF_000022645.2	Burkholderia glumae BGR1	WP_012735311.1	hypothetical protein [Burkholderia glumae]	pathogen	4	Acinetobacter;Burkholderia;Enterobacter;Pseudomonas
+GCF_000022645.2	Burkholderia glumae BGR1	WP_015876356.1	hypothetical protein [Burkholderia glumae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000022645.2	Burkholderia glumae BGR1	WP_080569328.1	DUF2591 domain-containing protein [Burkholderia glumae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000022645.2	Burkholderia glumae BGR1	WP_080569438.1	hypothetical protein [Burkholderia glumae]	pathogen	4	Acinetobacter;Burkholderia;Enterobacter;Pseudomonas
+GCF_000024225.1	Atopobium parvulum DSM 20469	WP_012808650.1	DUF4406 domain-containing protein [Atopobium parvulum]	pathogen	5	Brucella;Burkholderia;Olsenella;Pseudomonas;Ruminiclostridium
+GCF_000026645.1	Pseudomonas aeruginosa LESB58	WP_012614000.1	DUF1828 domain-containing protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000194745.1	Burkholderia gladioli BSR3	WP_013690371.1	MULTISPECIES: hypothetical protein [Burkholderia]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000194745.1	Burkholderia gladioli BSR3	WP_013699932.1	hypothetical protein [Burkholderia gladioli]	pathogen	1	Pseudomonas
+GCF_000194745.1	Burkholderia gladioli BSR3	WP_044273743.1	hypothetical protein [Burkholderia gladioli]	pathogen	1	Pseudomonas
+GCF_000203915.1	Burkholderia ambifaria AMMD	WP_050812306.1	hypothetical protein [Burkholderia ambifaria]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000226155.1	Pseudomonas aeruginosa M18	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000259235.1	Helicobacter pylori HUP-B14	WP_014658448.1	hypothetical protein [Helicobacter pylori]	pathogen	3	Burkholderia;Helicobacter;Pseudomonas
+GCF_000260515.1	Burkholderia pseudomallei 1026b	WP_051002052.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000262695.1	Burkholderia sp. KJ006	WP_014726298.1	hypothetical protein [Burkholderia sp. KJ006]	pathogen	2	Pseudomonas;Xanthomonas
+GCF_000271985.2	Pseudomonas aeruginosa SJTD-1	WP_060852920.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000284555.1	Pseudomonas aeruginosa NCGM2.S1	WP_003087135.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000292915.1	Burkholderia cepacia GG4	WP_014898218.1	DUF1311 domain-containing protein [Burkholderia cepacia]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_000294635.1	Burkholderia pseudomallei BPC006	WP_014919783.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000344355.2	Pseudomonas syringae pv. actinidiae ICMP 18708	WP_017684899.1	hypothetical protein [Pseudomonas syringae]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_000359505.1	Pseudomonas aeruginosa B136-33	WP_003111331.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000402035.1	Burkholderia sp. RPE64	WP_016346777.1	hypothetical protein [Burkholderia sp. RPE64]	pathogen	5	Bordetella;Burkholderia;Pandoraea;Pseudomonas;Roseomonas
+GCF_000439695.1	Burkholderia pseudomallei MSHR305	WP_004541756.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_000452705.1	Pseudomonas syringae CC1557	WP_025391106.1	hypothetical protein [Pseudomonas syringae]	pathogen	3	Burkholderia;Legionella;Xanthomonas
+GCF_000473745.2	Pseudomonas aeruginosa VRFPA04	WP_003100688.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Providencia
+GCF_000473745.2	Pseudomonas aeruginosa VRFPA04	WP_003133668.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	1	Burkholderia
+GCF_000473745.2	Pseudomonas aeruginosa VRFPA04	WP_009877656.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Paraburkholderia
+GCF_000473745.2	Pseudomonas aeruginosa VRFPA04	WP_015503905.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	1	Burkholderia
+GCF_000473745.2	Pseudomonas aeruginosa VRFPA04	WP_015649664.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	5	Burkholderia;Haemophilus;Mannheimia;Neisseria;Pantoea
+GCF_000473745.2	Pseudomonas aeruginosa VRFPA04	WP_031294923.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	1	Burkholderia
+GCF_000474015.1	Klebsiella pneumoniae CG43	WP_016530196.1	hypothetical protein [Klebsiella pneumoniae]	pathogen	3	Burkholderia;Escherichia;Pseudomonas
+GCF_000496455.2	Pseudomonas aeruginosa DHS01	WP_012614000.1	DUF1828 domain-containing protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000496455.2	Pseudomonas aeruginosa DHS01	WP_023098761.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000496455.2	Pseudomonas aeruginosa DHS01	WP_023464354.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Ralstonia
+GCF_000496455.2	Pseudomonas aeruginosa DHS01	WP_031299072.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000504045.1	Pseudomonas aeruginosa MTB-1	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000504045.1	Pseudomonas aeruginosa MTB-1	WP_041025692.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	3	Burkholderia;Cronobacter;Pseudomonas
+GCF_000508765.1	Pseudomonas aeruginosa LES431	WP_003097713.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_000508765.1	Pseudomonas aeruginosa LES431	WP_003111133.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000508765.1	Pseudomonas aeruginosa LES431	WP_012614000.1	DUF1828 domain-containing protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000510305.1	Pseudomonas aeruginosa SCV20265	WP_003097713.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Paraburkholderia
+GCF_000510305.1	Pseudomonas aeruginosa SCV20265	WP_003159810.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Serratia
+GCF_000510305.1	Pseudomonas aeruginosa SCV20265	WP_021204956.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	1	Burkholderia
+GCF_000511385.1	Phaeobacter gallaeciensis DSM 26640	WP_024097798.1	hypothetical protein [Phaeobacter gallaeciensis]	pathogen	3	Burkholderia;Phaeobacter;Pseudomonas
+GCF_000511895.1	Burkholderia pseudomallei NCTC 13178	WP_051453632.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	4	Paraburkholderia;Pseudomonas;Tenacibaculum;Vibrio
+GCF_000524595.1	Pseudomonas aeruginosa YL84	WP_003097713.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_000567925.1	Burkholderia thailandensis 2002721723	WP_009896459.1	hypothetical protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000568855.2	Pseudomonas aeruginosa PAK	WP_003097713.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Paraburkholderia
+GCF_000568855.2	Pseudomonas aeruginosa PAK	WP_016253705.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Serratia
+GCF_000583835.1	Burkholderia pseudomallei MSHR520	WP_004541756.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_000648735.3	Pseudomonas syringae pv. actinidiae ICMP 18884	WP_017684899.1	hypothetical protein [Pseudomonas syringae]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_000715155.1	Salmonella enterica subsp. enterica serovar Typhimurium	WP_001122242.1	type III secretion system effector phosphothreonine lyase SpvC [Salmonella enterica]	pathogen	4	Burkholderia;Escherichia;Pseudomonas;Shigella
+GCF_000743055.1	Salmonella enterica subsp. enterica serovar Typhimurium	WP_001714223.1	MULTISPECIES: hypothetical protein [Enterobacteriaceae]	pathogen	6	Burkholderia;Enterobacter;Escherichia;Pseudomonas;Salmonella;Serratia
+GCF_000754375.1	Salmonella enterica subsp. enterica serovar Enteritidis	WP_001122242.1	type III secretion system effector phosphothreonine lyase SpvC [Salmonella enterica]	pathogen	7	Aeromonas;Burkholderia;Chromobacterium;Edwardsiella;Escherichia;Pseudomonas;Shigella
+GCF_000755725.1	Burkholderia cenocepacia	WP_040128552.1	hypothetical protein [Burkholderia cenocepacia]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000755765.1	Burkholderia pseudomallei	WP_004541756.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_000755805.1	Burkholderia cepacia	WP_006485063.1	MULTISPECIES: hypothetical protein [Burkholderia]	pathogen	3	Burkholderia;Kosakonia;Pseudomonas
+GCF_000755805.1	Burkholderia cepacia	WP_034202671.1	DUF1493 domain-containing protein [Burkholderia cepacia]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000755805.1	Burkholderia cepacia	WP_052106042.1	hypothetical protein [Burkholderia cepacia]	pathogen	5	Burkholderia;Pantoea;Pseudomonas;Salmonella;Xanthomonas
+GCF_000755805.1	Burkholderia cepacia	WP_080747307.1	hypothetical protein [Burkholderia cepacia]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000755925.1	Burkholderia pseudomallei HBPUB10134a	WP_004201904.1	MULTISPECIES: hypothetical protein [pseudomallei group]	pathogen	3	Burkholderia;Mycobacterium;Pseudomonas
+GCF_000755925.1	Burkholderia pseudomallei HBPUB10134a	WP_004544290.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000755945.1	Burkholderia pseudomallei MSHR5858	WP_004544290.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Nocardia;Pseudomonas
+GCF_000755945.1	Burkholderia pseudomallei MSHR5858	WP_004547425.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Mycobacterium;Pseudomonas
+GCF_000755965.1	Burkholderia pseudomallei MSHR5848	WP_004534838.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000755965.1	Burkholderia pseudomallei MSHR5848	WP_011204959.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000755965.1	Burkholderia pseudomallei MSHR5848	WP_024429480.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Mycobacterium;Pseudomonas
+GCF_000755965.1	Burkholderia pseudomallei MSHR5848	WP_075018956.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	5	Burkholderia;Escherichia;Paraburkholderia;Pseudomonas;Ralstonia
+GCF_000755985.1	Burkholderia oklahomensis	WP_010108662.1	hypothetical protein [Burkholderia oklahomensis]	pathogen	4	Acinetobacter;Burkholderia;Mycobacterium;Pseudomonas
+GCF_000755985.1	Burkholderia oklahomensis	WP_010110032.1	hypothetical protein [Burkholderia oklahomensis]	pathogen	4	Achromobacter;Burkholderia;Erwinia;Pseudomonas
+GCF_000756005.1	Burkholderia multivorans	WP_048805276.1	hypothetical protein [Burkholderia multivorans]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_000756005.1	Burkholderia multivorans	WP_048805654.1	hypothetical protein [Burkholderia multivorans]	pathogen	4	Escherichia;Klebsiella;Pseudomonas;Salmonella
+GCF_000756005.1	Burkholderia multivorans	WP_080746591.1	hypothetical protein [Burkholderia multivorans]	pathogen	2	Cronobacter;Pseudomonas
+GCF_000756025.1	Burkholderia mallei	WP_004201904.1	MULTISPECIES: hypothetical protein [pseudomallei group]	pathogen	3	Burkholderia;Mycobacterium;Pseudomonas
+GCF_000756065.1	Burkholderia pseudomallei MSHR5855	WP_004534838.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000756065.1	Burkholderia pseudomallei MSHR5855	WP_004541756.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_000756065.1	Burkholderia pseudomallei MSHR5855	WP_011204959.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000756065.1	Burkholderia pseudomallei MSHR5855	WP_024429480.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	4	Acinetobacter;Burkholderia;Mycobacterium;Pseudomonas
+GCF_000756085.1	Burkholderia pseudomallei	WP_004547425.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Mycobacterium;Pseudomonas
+GCF_000756125.1	Burkholderia pseudomallei	WP_004534838.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000756125.1	Burkholderia pseudomallei	WP_004536371.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Pseudomonas;Vibrio
+GCF_000756125.1	Burkholderia pseudomallei	WP_004536831.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Mycobacterium;Pseudomonas
+GCF_000756165.1	Burkholderia pseudomallei	WP_004534838.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000756165.1	Burkholderia pseudomallei	WP_004554919.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Mycobacterium;Pseudomonas
+GCF_000756165.1	Burkholderia pseudomallei	WP_076857106.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	5	Burkholderia;Escherichia;Paraburkholderia;Pseudomonas;Ralstonia
+GCF_000756185.1	Burkholderia pseudomallei 576	WP_004201904.1	MULTISPECIES: hypothetical protein [pseudomallei group]	pathogen	3	Burkholderia;Mycobacterium;Pseudomonas
+GCF_000756185.1	Burkholderia pseudomallei 576	WP_004544290.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000756465.1	Salmonella enterica subsp. arizonae serovar 62:z36:- str. RKS2983	WP_038395998.1	type III secretion system effector phosphothreonine lyase SpvC [Salmonella enterica]	pathogen	6	Burkholderia;Chromobacterium;Escherichia;Pseudomonas;Salmonella;Shigella
+GCF_000757035.2	Burkholderia pseudomallei Pasteur 52237	WP_004530509.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	5	Burkholderia;Escherichia;Paraburkholderia;Pseudomonas;Ralstonia
+GCF_000757035.2	Burkholderia pseudomallei Pasteur 52237	WP_052718723.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	6	Achromobacter;Bordetella;Burkholderia;Escherichia;Pseudomonas;Salmonella
+GCF_000764955.1	Burkholderia cenocepacia	WP_080294413.1	hypothetical protein [Burkholderia cenocepacia]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000808035.2	Burkholderia thailandensis	WP_009902049.1	DUF1311 domain-containing protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000808035.2	Burkholderia thailandensis	WP_009906627.1	hypothetical protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000808035.2	Burkholderia thailandensis	WP_009906939.1	hypothetical protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000808035.2	Burkholderia thailandensis	WP_025405725.1	hypothetical protein [Burkholderia thailandensis]	pathogen	3	Acinetobacter;Burkholderia;Pseudomonas
+GCF_000815105.2	Pandoraea pulmonicola	WP_052266865.1	hypothetical protein [Pandoraea pulmonicola]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000826965.4	Pandoraea apista	WP_042114974.1	hypothetical protein [Pandoraea apista]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_000828875.1	Burkholderia sp. RPE67	WP_045454465.1	phage gp6-like head-tail connector protein [Burkholderia sp. RPE67]	pathogen	1	Pseudomonas
+GCF_000828875.1	Burkholderia sp. RPE67	WP_045457961.1	phage gp6-like head-tail connector protein [Burkholderia sp. RPE67]	pathogen	1	Pseudomonas
+GCF_000829255.1	Pseudomonas aeruginosa	WP_003087135.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000829255.1	Pseudomonas aeruginosa	WP_023098761.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000829255.1	Pseudomonas aeruginosa	WP_031630419.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000829255.1	Pseudomonas aeruginosa	WP_033983778.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	3	Burkholderia;Cronobacter;Pseudomonas
+GCF_000829275.1	Pseudomonas aeruginosa	WP_003087135.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000829275.1	Pseudomonas aeruginosa	WP_023098761.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000829275.1	Pseudomonas aeruginosa	WP_031630419.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000829275.1	Pseudomonas aeruginosa	WP_033983778.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	3	Burkholderia;Cronobacter;Pseudomonas
+GCF_000829885.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000835205.1	Burkholderia glumae PG1	WP_042624599.1	hypothetical protein [Burkholderia glumae]	pathogen	2	Acidovorax;Pseudomonas
+GCF_000835205.1	Burkholderia glumae PG1	WP_042627569.1	hypothetical protein [Burkholderia glumae]	pathogen	1	Pseudomonas
+GCF_000835205.1	Burkholderia glumae PG1	WP_042627572.1	hypothetical protein [Burkholderia glumae]	pathogen	1	Pseudomonas
+GCF_000835205.1	Burkholderia glumae PG1	WP_052498426.1	MULTISPECIES: hypothetical protein [Burkholderia]	pathogen	1	Pseudomonas
+GCF_000835205.1	Burkholderia glumae PG1	WP_052498428.1	hypothetical protein [Burkholderia glumae]	pathogen	1	Pseudomonas
+GCF_000835205.1	Burkholderia glumae PG1	WP_080937299.1	MULTISPECIES: hypothetical protein [Burkholderia]	pathogen	3	Bordetella;Burkholderia;Pseudomonas
+GCF_000835205.1	Burkholderia glumae PG1	WP_080937512.1	hypothetical protein [Burkholderia glumae]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_000959125.1	Burkholderia pseudomallei 1026b	WP_051002052.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000959225.1	Burkholderia pseudomallei MSHR2543	WP_009936863.1	MULTISPECIES: hypothetical protein [pseudomallei group]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000959245.1	Burkholderia ubonensis MSMB22	WP_045566766.1	hypothetical protein [Burkholderia ubonensis]	pathogen	3	Burkholderia;Pseudomonas;Shewanella
+GCF_000959285.1	Burkholderia pseudomallei K96243	WP_009936863.1	MULTISPECIES: hypothetical protein [pseudomallei group]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000959325.1	Burkholderia sp. 2002721687	WP_009916871.1	MULTISPECIES: hypothetical protein [Burkholderia]	pathogen	5	Burkholderia;Edwardsiella;Escherichia;Pseudomonas;Salmonella
+GCF_000959425.1	Burkholderia thailandensis 2002721643	WP_009896459.1	hypothetical protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000959505.1	Burkholderia dolosa AU0158	WP_035975058.1	MULTISPECIES: hypothetical protein [Burkholderia cepacia complex]	pathogen	3	Burkholderia;Pseudomonas;Xanthomonas
+GCF_000959525.1	Burkholderia multivorans ATCC BAA-247	WP_035489409.1	MULTISPECIES: SMI1/KNR4 family protein [Burkholderia]	pathogen	4	Acidovorax;Burkholderia;Leptospira;Pseudomonas
+GCF_000959545.1	Burkholderia ambifaria AMMD	WP_011658789.1	hypothetical protein [Burkholderia ambifaria]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000959545.1	Burkholderia ambifaria AMMD	WP_050812306.1	hypothetical protein [Burkholderia ambifaria]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_000959605.1	Burkholderia thailandensis 34	WP_009902049.1	DUF1311 domain-containing protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000959605.1	Burkholderia thailandensis 34	WP_045599154.1	fimbrial protein [Burkholderia thailandensis]	pathogen	5	Burkholderia;Providencia;Pseudomonas;Ralstonia;Yersinia
+GCF_000959725.1	Burkholderia gladioli	WP_013690371.1	MULTISPECIES: hypothetical protein [Burkholderia]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000959725.1	Burkholderia gladioli	WP_036051778.1	hypothetical protein [Burkholderia gladioli]	pathogen	2	Pseudomonas;Ralstonia
+GCF_000959725.1	Burkholderia gladioli	WP_036051908.1	hypothetical protein [Burkholderia gladioli]	pathogen	4	Acidovorax;Burkholderia;Nocardia;Pseudomonas
+GCF_000959725.1	Burkholderia gladioli	WP_080742096.1	hypothetical protein [Burkholderia gladioli]	pathogen	5	Chromobacterium;Edwardsiella;Pseudomonas;Salmonella;Shigella
+GCF_000959725.1	Burkholderia gladioli	WP_080742275.1	SMI1/KNR4 family protein [Burkholderia gladioli]	pathogen	2	Escherichia;Pseudomonas
+GCF_000960995.1	Burkholderia glumae LMG 2196 = ATCC 33617	WP_012733186.1	hypothetical protein [Burkholderia glumae]	pathogen	6	Acidovorax;Burkholderia;Erwinia;Pseudomonas;Ralstonia;Xanthomonas
+GCF_000960995.1	Burkholderia glumae LMG 2196 = ATCC 33617	WP_012733776.1	DUF1842 domain-containing protein [Burkholderia glumae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000960995.1	Burkholderia glumae LMG 2196 = ATCC 33617	WP_015877951.1	clavaminic acid synthetase [Burkholderia glumae]	pathogen	3	Burkholderia;Photorhabdus;Pseudomonas
+GCF_000960995.1	Burkholderia glumae LMG 2196 = ATCC 33617	WP_052690865.1	hypothetical protein [Burkholderia glumae]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_000961235.1	Xanthomonas citri subsp. citri	WP_005922189.1	MULTISPECIES: phage holin family protein [Xanthomonas]	pathogen	5	Achromobacter;Burkholderia;Pseudomonas;Stenotrophomonas;Xanthomonas
+GCF_000961375.1	Xanthomonas citri subsp. citri	WP_005922189.1	MULTISPECIES: phage holin family protein [Xanthomonas]	pathogen	5	Achromobacter;Burkholderia;Pseudomonas;Stenotrophomonas;Xanthomonas
+GCF_000968335.1	Haemophilus influenzae 2019	WP_079996278.1	MULTISPECIES: DUF935 domain-containing protein [Haemophilus]	pathogen	16	Acinetobacter;Actinobacillus;Burkholderia;Citrobacter;Edwardsiella;Eikenella;Escherichia;Haemophilus;Histophilus;Laribacter;Mannheimia;Neisseria;Pasteurella;Pseudomonas;Salmonella;Serratia
+GCF_000969265.1	Vibrio cholerae	WP_046126488.1	hypothetical protein [Vibrio cholerae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000969265.1	Vibrio cholerae	WP_046126489.1	hypothetical protein [Vibrio cholerae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000969265.1	Vibrio cholerae	WP_046126490.1	hypothetical protein [Vibrio cholerae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000969265.1	Vibrio cholerae	WP_046126491.1	hypothetical protein [Vibrio cholerae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000974835.2	Burkholderia cepacia	WP_035971938.1	MULTISPECIES: hypothetical protein [Burkholderia cepacia complex]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000974835.2	Burkholderia cepacia	WP_035975058.1	MULTISPECIES: hypothetical protein [Burkholderia cepacia complex]	pathogen	4	Burkholderia;Pseudomonas;Ralstonia;Xanthomonas
+GCF_000981825.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_000988485.1	Pseudomonas syringae pv. syringae B301D	WP_032657231.1	hypothetical protein [Pseudomonas syringae]	pathogen	1	Burkholderia
+GCF_001010785.1	Pandoraea apista	WP_042114974.1	hypothetical protein [Pandoraea apista]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_001027265.1	Pandoraea apista	WP_042114974.1	hypothetical protein [Pandoraea apista]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_001042835.1	Xanthomonas oryzae pv. oryzicola	WP_048488584.1	hypothetical protein [Xanthomonas oryzae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001293045.1	Burkholderia sp. HB1	WP_053857308.1	hypothetical protein [Burkholderia sp. HB1]	pathogen	3	Burkholderia;Pseudomonas;Treponema
+GCF_001411495.1	Burkholderia cepacia ATCC 25416	WP_080982031.1	Arc family DNA-binding protein [Burkholderia cepacia]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001447845.1	Pseudomonas aeruginosa	WP_003109228.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Serratia
+GCF_001447845.1	Pseudomonas aeruginosa	WP_003120798.1	MULTISPECIES: antibiotic biosynthesis monooxygenase [Pseudomonas]	pathogen	1	Burkholderia
+GCF_001447845.1	Pseudomonas aeruginosa	WP_003143203.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	3	Burkholderia;Morganella;Providencia
+GCF_001469595.1	Cutibacterium acnes	WP_002524913.1	MULTISPECIES: biotin carboxylase [Propionibacteriaceae]	pathogen	4	Burkholderia;Pseudomonas;Staphylococcus;Streptomyces
+GCF_001469615.1	Cutibacterium acnes	WP_074010932.1	biotin carboxylase [Cutibacterium acnes]	pathogen	4	Burkholderia;Pseudomonas;Staphylococcus;Streptomyces
+GCF_001469815.1	Escherichia coli	WP_000264665.1	MULTISPECIES: hypothetical protein [Enterobacteriaceae]	pathogen	6	Burkholderia;Enterobacter;Escherichia;Pectobacterium;Photorhabdus;Pseudomonas
+GCF_001482325.1	Pseudomonas aeruginosa	WP_003114923.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	1	Burkholderia
+GCF_001482325.1	Pseudomonas aeruginosa	WP_003116359.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	1	Burkholderia
+GCF_001482325.1	Pseudomonas aeruginosa	WP_003120545.1	MULTISPECIES: phytanoyl-CoA dioxygenase family protein [Pseudomonas]	pathogen	1	Burkholderia
+GCF_001482325.1	Pseudomonas aeruginosa	WP_003143203.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Providencia
+GCF_001482325.1	Pseudomonas aeruginosa	WP_009877656.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	1	Burkholderia
+GCF_001482325.1	Pseudomonas aeruginosa	WP_034047840.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	1	Burkholderia
+GCF_001482725.1	Pseudomonas syringae pv. lapsa	WP_057406280.1	hypothetical protein [Pseudomonas syringae]	pathogen	3	Burkholderia;Chromobacterium;Pseudomonas
+GCF_001483845.1	Campylobacter coli	WP_052786267.1	hemagglutinin [Campylobacter coli]	pathogen	7	Bordetella;Brenneria;Burkholderia;Campylobacter;Photorhabdus;Pseudomonas;Yersinia
+GCF_001484665.1	Burkholderia cenocepacia	WP_003104007.1	MULTISPECIES: hypothetical protein [Proteobacteria]	pathogen	2	Pseudomonas;Stenotrophomonas
+GCF_001515845.2	Pseudomonas aeruginosa	WP_003104007.1	MULTISPECIES: hypothetical protein [Proteobacteria]	pathogen	3	Burkholderia;Pseudomonas;Stenotrophomonas
+GCF_001516105.1	Pseudomonas aeruginosa	WP_003087135.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001516165.2	Pseudomonas aeruginosa	WP_031690985.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001516185.2	Pseudomonas aeruginosa	WP_023087614.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001516205.2	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001516205.2	Pseudomonas aeruginosa	WP_031299072.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001516225.2	Pseudomonas aeruginosa	WP_003104007.1	MULTISPECIES: hypothetical protein [Proteobacteria]	pathogen	3	Burkholderia;Pseudomonas;Stenotrophomonas
+GCF_001516265.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001516265.1	Pseudomonas aeruginosa	WP_023114185.1	MULTISPECIES: hypothetical protein [Gammaproteobacteria]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001516365.2	Pseudomonas aeruginosa	WP_003111331.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001516385.1	Pseudomonas aeruginosa	WP_003111331.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001547955.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001548135.1	Pseudomonas aeruginosa	WP_003082503.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001548135.1	Pseudomonas aeruginosa	WP_003097713.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_001548135.1	Pseudomonas aeruginosa	WP_003098728.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001548135.1	Pseudomonas aeruginosa	WP_003116566.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	3	Burkholderia;Chromobacterium;Pseudomonas
+GCF_001548135.1	Pseudomonas aeruginosa	WP_003146853.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001548135.1	Pseudomonas aeruginosa	WP_060852920.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001548335.1	Pseudomonas aeruginosa	WP_031294923.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001557535.1	Burkholderia sp. PAMC 26561	WP_062167477.1	hypothetical protein [Burkholderia sp. PAMC 26561]	pathogen	1	Pseudomonas
+GCF_001557535.1	Burkholderia sp. PAMC 26561	WP_062175039.1	hypothetical protein [Burkholderia sp. PAMC 26561]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001558355.1	Salmonella enterica	WP_001122242.1	type III secretion system effector phosphothreonine lyase SpvC [Salmonella enterica]	pathogen	5	Burkholderia;Edwardsiella;Escherichia;Pseudomonas;Shigella
+GCF_001572725.1	Serratia rubidaea	WP_061324267.1	hypothetical protein [Serratia rubidaea]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001572725.1	Serratia rubidaea	WP_061324269.1	hypothetical protein [Serratia rubidaea]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001618925.1	Pseudomonas aeruginosa	WP_003104007.1	MULTISPECIES: hypothetical protein [Proteobacteria]	pathogen	3	Burkholderia;Pseudomonas;Stenotrophomonas
+GCF_001618925.1	Pseudomonas aeruginosa	WP_016263332.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001632245.1	Pseudomonas aeruginosa	WP_003104007.1	MULTISPECIES: hypothetical protein [Proteobacteria]	pathogen	3	Burkholderia;Pseudomonas;Stenotrophomonas
+GCF_001632245.1	Pseudomonas aeruginosa	WP_023092030.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001632245.1	Pseudomonas aeruginosa	WP_031277798.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001634365.1	Burkholderia sp. OLGA172	WP_063501210.1	hypothetical protein [Burkholderia sp. OLGA172]	pathogen	1	Pseudomonas
+GCF_001663415.1	Ralstonia solanacearum	WP_020830901.1	hypothetical protein [Ralstonia solanacearum]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_001695715.1	Burkholderia pseudomallei	WP_017880619.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	1	Pseudomonas
+GCF_001695735.1	Burkholderia pseudomallei	WP_017880619.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	1	Pseudomonas
+GCF_001708425.1	Pseudomonas corrugata	WP_081036576.1	pentapeptide repeat-containing protein [Pseudomonas corrugata]	pathogen	1	Burkholderia
+GCF_001708525.1	Ralstonia solanacearum	WP_016722541.1	hypothetical protein [Ralstonia solanacearum]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_001717505.1	Dialister pneumosintes	WP_022513594.1	pathogen-specific surface antigen [Dialister pneumosintes]	common	89	Acetobacter;Achromobacter;Actinobacillus;Actinomyces;Advenella;Aggregatibacter;Aromatoleum;Azoarcus;Azospira;Azospirillum;Bartonella;Beijerinckia;Bifidobacterium;Blastochloris;Bordetella;Brenneria;Brucella;Burkholderia;Campylobacter;Candidatus Liberibacter;Castellaniella;Chelativorans;Chromobacterium;Citrobacter;Cobetia;Collimonas;Dechloromonas;Desulfovibrio;Escherichia;Ezakiella;Filifactor;Flexistipes;Frischella;Gardnerella;Geobacter;Gibbsiella;Gilliamella;Gluconacetobacter;Haemophilus;Herbaspirillum;Hyphomicrobium;Janthinobacterium;Jeongeupia;Klebsiella;Komagataeibacter;Magnetospirillum;Martelella;Methylobacterium;Mobiluncus;Morganella;Paenibacillus;Pandoraea;Paraburkholderia;Paracoccus;Parascardovia;Pasteurella;Pectobacterium;Pelosinus;Pragia;Propionimicrobium;Proteus;Providencia;Pseudogulbenkiania;Pseudomonas;Psychromonas;Raoultella;Rhodomicrobium;Rhodopseudomonas;Rhodospirillum;Rubrivivax;Salmonella;Scardovia;Selenomonas;Serratia;Singulisphaera;Snodgrassella;Sodalis;Spirochaeta;Streptomyces;Sulfuritalea;Sulfurospirillum;Tatumella;Thauera;Thiolapillus;Treponema;Verminephrobacter;Vibrio;Wolinella;Yersinia
+GCF_001718295.1	Burkholderia thailandensis	WP_009903789.1	MULTISPECIES: hypothetical protein [Burkholderia]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_001718295.1	Burkholderia thailandensis	WP_009906627.1	hypothetical protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718295.1	Burkholderia thailandensis	WP_025405725.1	hypothetical protein [Burkholderia thailandensis]	pathogen	4	Acinetobacter;Burkholderia;Mycobacterium;Pseudomonas
+GCF_001718315.1	Burkholderia diffusa	WP_069225060.1	hypothetical protein [Burkholderia diffusa]	pathogen	4	Acidovorax;Burkholderia;Leptospira;Pseudomonas
+GCF_001718315.1	Burkholderia diffusa	WP_081334198.1	hypothetical protein [Burkholderia diffusa]	pathogen	1	Pseudomonas
+GCF_001718355.1	Burkholderia ubonensis	WP_059616511.1	DUF1493 domain-containing protein [Burkholderia ubonensis]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_001718355.1	Burkholderia ubonensis	WP_059656325.1	hypothetical protein [Burkholderia ubonensis]	pathogen	1	Pseudomonas
+GCF_001718355.1	Burkholderia ubonensis	WP_059657090.1	DUF2513 domain-containing protein [Burkholderia ubonensis]	pathogen	3	Burkholderia;Pseudomonas;Sodalis
+GCF_001718415.1	Burkholderia pseudomultivorans	WP_069245034.1	hypothetical protein [Burkholderia pseudomultivorans]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718415.1	Burkholderia pseudomultivorans	WP_069245040.1	hypothetical protein [Burkholderia pseudomultivorans]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_001718495.1	Burkholderia vietnamiensis	WP_081336233.1	hypothetical protein [Burkholderia vietnamiensis]	pathogen	2	Pseudomonas;Ralstonia
+GCF_001718555.1	Burkholderia metallica	WP_069256571.1	hypothetical protein [Burkholderia metallica]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_001718555.1	Burkholderia metallica	WP_069256573.1	hypothetical protein [Burkholderia metallica]	pathogen	3	Burkholderia;Micavibrio;Pseudomonas
+GCF_001718555.1	Burkholderia metallica	WP_069260951.1	hypothetical protein [Burkholderia metallica]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718575.1	Burkholderia lata	WP_069250036.1	hypothetical protein [Burkholderia lata]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718575.1	Burkholderia lata	WP_069252250.1	hypothetical protein [Burkholderia lata]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718575.1	Burkholderia lata	WP_083266043.1	hypothetical protein [Burkholderia lata]	pathogen	4	Pantoea;Pseudomonas;Salmonella;Streptomyces
+GCF_001718615.1	Burkholderia thailandensis	WP_009902049.1	DUF1311 domain-containing protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718635.1	Burkholderia thailandensis	WP_009902049.1	DUF1311 domain-containing protein [Burkholderia thailandensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718655.1	Burkholderia ubonensis	WP_059625640.1	DUF1493 domain-containing protein [Burkholderia ubonensis]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_001718655.1	Burkholderia ubonensis	WP_080409788.1	hypothetical protein [Burkholderia ubonensis]	pathogen	1	Pseudomonas
+GCF_001718695.1	Burkholderia ubonensis	WP_034193187.1	MULTISPECIES: holin [Burkholderia]	pathogen	3	Burkholderia;Cupriavidus;Pseudomonas
+GCF_001718775.1	Burkholderia vietnamiensis	WP_069264155.1	hypothetical protein [Burkholderia vietnamiensis]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718775.1	Burkholderia vietnamiensis	WP_069264167.1	hypothetical protein [Burkholderia vietnamiensis]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_001718795.1	Burkholderia latens	WP_069242661.1	hypothetical protein [Burkholderia latens]	pathogen	1	Pseudomonas
+GCF_001718815.1	Burkholderia vietnamiensis	WP_034193187.1	MULTISPECIES: holin [Burkholderia]	pathogen	3	Burkholderia;Cupriavidus;Pseudomonas
+GCF_001718815.1	Burkholderia vietnamiensis	WP_059460809.1	MULTISPECIES: SMI1/KNR4 family protein [Burkholderia cepacia complex]	pathogen	4	Acidovorax;Burkholderia;Leptospira;Pseudomonas
+GCF_001718835.1	Burkholderia cepacia	WP_059716417.1	MULTISPECIES: hypothetical protein [Burkholderia cepacia complex]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718835.1	Burkholderia cepacia	WP_069270632.1	MULTISPECIES: DUF1493 domain-containing protein [Burkholderia cepacia complex]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_001718835.1	Burkholderia cepacia	WP_069272336.1	hypothetical protein [Burkholderia cepacia]	pathogen	3	Burkholderia;Pseudomonas;Shewanella
+GCF_001718855.1	Burkholderia ubonensis	WP_059716417.1	MULTISPECIES: hypothetical protein [Burkholderia cepacia complex]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718855.1	Burkholderia ubonensis	WP_059765816.1	hypothetical protein [Burkholderia ubonensis]	pathogen	3	Burkholderia;Pseudomonas;Shewanella
+GCF_001718855.1	Burkholderia ubonensis	WP_069270632.1	MULTISPECIES: DUF1493 domain-containing protein [Burkholderia cepacia complex]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_001718875.1	Burkholderia sp. Bp7605	WP_069235878.1	hypothetical protein [Burkholderia sp. Bp7605]	pathogen	1	Pseudomonas
+GCF_001718915.1	Burkholderia vietnamiensis	WP_069224464.1	hypothetical protein [Burkholderia vietnamiensis]	pathogen	1	Pseudomonas
+GCF_001718995.1	Burkholderia multivorans	WP_048803602.1	hypothetical protein [Burkholderia multivorans]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001718995.1	Burkholderia multivorans	WP_048804216.1	hypothetical protein [Burkholderia multivorans]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721745.1	Pseudomonas aeruginosa	WP_003091745.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001721745.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721745.1	Pseudomonas aeruginosa	WP_073667188.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721765.1	Pseudomonas aeruginosa	WP_003091745.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001721765.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721765.1	Pseudomonas aeruginosa	WP_073667188.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721785.1	Pseudomonas aeruginosa	WP_003091745.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001721785.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721785.1	Pseudomonas aeruginosa	WP_073667188.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721805.1	Pseudomonas aeruginosa	WP_003091745.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001721805.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721805.1	Pseudomonas aeruginosa	WP_073667188.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721825.1	Pseudomonas aeruginosa	WP_003091745.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001721825.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721825.1	Pseudomonas aeruginosa	WP_073667188.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721845.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721845.1	Pseudomonas aeruginosa	WP_025325125.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001721845.1	Pseudomonas aeruginosa	WP_073667188.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001722005.2	Pseudomonas aeruginosa	WP_003091745.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001722005.2	Pseudomonas aeruginosa	WP_003122299.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001722005.2	Pseudomonas aeruginosa	WP_009877656.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001722005.2	Pseudomonas aeruginosa	WP_021264538.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001722005.2	Pseudomonas aeruginosa	WP_021265158.1	TolB-like translocation protein [Pseudomonas aeruginosa]	pathogen	4	Acinetobacter;Burkholderia;Pseudomonas;Ralstonia
+GCF_001722005.2	Pseudomonas aeruginosa	WP_073937587.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001722025.1	Pseudomonas aeruginosa	WP_003091745.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001722025.1	Pseudomonas aeruginosa	WP_003098486.1	MULTISPECIES: TolB-like translocation protein [Pseudomonas]	pathogen	4	Acinetobacter;Burkholderia;Pseudomonas;Ralstonia
+GCF_001722025.1	Pseudomonas aeruginosa	WP_003111505.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	3	Burkholderia;Pantoea;Pseudomonas
+GCF_001722025.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001722025.1	Pseudomonas aeruginosa	WP_009877656.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001722025.1	Pseudomonas aeruginosa	WP_073667188.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001722045.1	Pseudomonas aeruginosa	WP_003091745.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001722045.1	Pseudomonas aeruginosa	WP_073667188.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001729505.1	Pseudomonas aeruginosa	WP_003082503.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001729505.1	Pseudomonas aeruginosa	WP_003098728.1	MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]	pathogen	4	Burkholderia;Chromobacterium;Pseudomonas;Ralstonia
+GCF_001729505.1	Pseudomonas aeruginosa	WP_003146853.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001742165.1	Burkholderia stabilis	WP_083281967.1	DUF1795 domain-containing protein [Burkholderia stabilis]	pathogen	3	Burkholderia;Photorhabdus;Pseudomonas
+GCF_001750705.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001750705.1	Pseudomonas aeruginosa	WP_023121055.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001792855.1	Pseudomonas aeruginosa	WP_021204956.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001792875.1	Pseudomonas aeruginosa	WP_021204956.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001865575.1	Paraburkholderia sprentiae WSM5005	WP_034477119.1	hypothetical protein [Paraburkholderia sprentiae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001870265.1	Pseudomonas aeruginosa	WP_021204956.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001874465.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001874465.1	Pseudomonas aeruginosa	WP_016263332.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001879525.1	Pseudomonas aeruginosa	WP_003087135.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_001879565.1	Ralstonia solanacearum OE1-1	WP_028852464.1	hypothetical protein [Ralstonia solanacearum]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_001887535.1	Ralstonia solanacearum FJAT-1458	WP_016722541.1	hypothetical protein [Ralstonia solanacearum]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_001887555.1	Burkholderia pseudomallei	WP_004541756.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_001887575.1	Burkholderia pseudomallei	WP_004541756.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_001891105.1	Ralstonia solanacearum	WP_028852464.1	hypothetical protein [Ralstonia solanacearum]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_001913215.1	Pseudomonas syringae pv. actinidiae	WP_017684899.1	hypothetical protein [Pseudomonas syringae]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_001913235.1	Pseudomonas syringae pv. actinidiae	WP_017684899.1	hypothetical protein [Pseudomonas syringae]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_001975125.1	Burkholderia pseudomallei	WP_004541756.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_001975145.1	Burkholderia pseudomallei	WP_004541756.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Burkholderia;Pandoraea;Pseudomonas
+GCF_001999885.1	Burkholderia cenocepacia	WP_077189548.1	hypothetical protein [Burkholderia cenocepacia]	pathogen	1	Pseudomonas
+GCF_002007585.1	Burkholderia cenocepacia	WP_078041749.1	hypothetical protein [Burkholderia cenocepacia]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002024285.1	Pseudomonas syringae pv. actinidiae	WP_017682906.1	hypothetical protein [Pseudomonas syringae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002024285.1	Pseudomonas syringae pv. actinidiae	WP_017684899.1	hypothetical protein [Pseudomonas syringae]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_002024305.1	Pseudomonas syringae pv. actinidiae	WP_017682906.1	hypothetical protein [Pseudomonas syringae]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002024305.1	Pseudomonas syringae pv. actinidiae	WP_017684899.1	hypothetical protein [Pseudomonas syringae]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_002075065.1	Pseudomonas aeruginosa	WP_031294923.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002085605.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002085755.1	Pseudomonas aeruginosa	WP_003087135.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002085755.1	Pseudomonas aeruginosa	WP_016263332.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002085755.1	Pseudomonas aeruginosa	WP_023098761.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002085755.1	Pseudomonas aeruginosa	WP_031630419.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002104595.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002104595.1	Pseudomonas aeruginosa	WP_016263332.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002104615.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002104615.1	Pseudomonas aeruginosa	WP_016263332.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002111125.1	Burkholderia pseudomallei	WP_085513022.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	1	Pseudomonas
+GCF_002111125.1	Burkholderia pseudomallei	WP_085513116.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	3	Bordetella;Pseudomonas;Xanthomonas
+GCF_002111385.1	Burkholderia pseudomallei	WP_085539115.1	hypothetical protein [Burkholderia pseudomallei]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002155245.1	Ralstonia solanacearum FJAT-91	WP_016722541.1	hypothetical protein [Ralstonia solanacearum]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_002162015.1	Ralstonia solanacearum	WP_028860076.1	hypothetical protein [Ralstonia solanacearum]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_002192475.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002192495.1	Pseudomonas aeruginosa	WP_009314782.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002192495.1	Pseudomonas aeruginosa	WP_016263332.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002205355.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002208175.1	Burkholderia gladioli pv. gladioli	WP_013690371.1	MULTISPECIES: hypothetical protein [Burkholderia]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002208175.1	Burkholderia gladioli pv. gladioli	WP_036051778.1	hypothetical protein [Burkholderia gladioli]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_002208645.1	Pseudomonas aeruginosa	WP_003104007.1	MULTISPECIES: hypothetical protein [Proteobacteria]	pathogen	3	Burkholderia;Pseudomonas;Stenotrophomonas
+GCF_002209085.1	Burkholderia cepacia	WP_080982031.1	Arc family DNA-binding protein [Burkholderia cepacia]	pathogen	3	Aeromonas;Burkholderia;Pseudomonas
+GCF_002215345.1	Pseudomonas aeruginosa	WP_088922342.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Bordetella;Burkholderia
+GCF_002220465.1	Ralstonia solanacearum	WP_028852464.1	hypothetical protein [Ralstonia solanacearum]	pathogen	3	Burkholderia;Pseudomonas;Ralstonia
+GCF_002223805.1	Pseudomonas aeruginosa	WP_003111331.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002237405.1	Pseudomonas aeruginosa	WP_021264538.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002237425.1	Pseudomonas aeruginosa	WP_021264538.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002278075.1	Paraburkholderia sp. BN5	WP_007183089.1	MULTISPECIES: hypothetical protein [Burkholderiaceae]	pathogen	3	Pseudomonas;Xanthomonas;Xylella
+GCF_002278075.1	Paraburkholderia sp. BN5	WP_095423619.1	hypothetical protein [Paraburkholderia sp. BN5]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002381285.1	Phaeobacter gallaeciensis	WP_024097798.1	hypothetical protein [Phaeobacter gallaeciensis]	pathogen	3	Burkholderia;Phaeobacter;Pseudomonas
+GCF_002381305.1	Phaeobacter gallaeciensis	WP_024097798.1	hypothetical protein [Phaeobacter gallaeciensis]	pathogen	3	Burkholderia;Phaeobacter;Pseudomonas
+GCF_002381325.1	Phaeobacter gallaeciensis	WP_024097798.1	hypothetical protein [Phaeobacter gallaeciensis]	pathogen	3	Burkholderia;Phaeobacter;Pseudomonas
+GCF_002393425.1	Burkholderia gladioli pv. gladioli	WP_096751203.1	hypothetical protein [Burkholderia gladioli]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002393485.1	Ralstonia pickettii	WP_096746158.1	hypothetical protein [Ralstonia pickettii]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002393525.1	Phaeobacter gallaeciensis	WP_024097798.1	hypothetical protein [Phaeobacter gallaeciensis]	pathogen	3	Burkholderia;Phaeobacter;Pseudomonas
+GCF_002407525.2	Burkholderia cepacia	WP_034196057.1	Arc family DNA-binding protein [Burkholderia cepacia]	pathogen	3	Aeromonas;Burkholderia;Pseudomonas
+GCF_002442855.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002753655.1	Pseudomonas aeruginosa	WP_003111331.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002753655.1	Pseudomonas aeruginosa	WP_034024452.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	3	Burkholderia;Pseudomonas;Serratia
+GCF_002763655.1	Pseudomonas syringae pv. actinidiae	WP_020305107.1	hypothetical protein [Pseudomonas syringae]	pathogen	3	Burkholderia;Paraburkholderia;Pseudomonas
+GCF_002812825.1	Pseudomonas aeruginosa	WP_043085375.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002812845.1	Pseudomonas aeruginosa	WP_043085375.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002812865.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002812885.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002812905.1	Pseudomonas aeruginosa	WP_003087135.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002812905.1	Pseudomonas aeruginosa	WP_003104007.1	MULTISPECIES: hypothetical protein [Proteobacteria]	pathogen	3	Burkholderia;Pseudomonas;Stenotrophomonas
+GCF_002812905.1	Pseudomonas aeruginosa	WP_031630419.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002812925.1	Pseudomonas aeruginosa	WP_003087135.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002812925.1	Pseudomonas aeruginosa	WP_003104007.1	MULTISPECIES: hypothetical protein [Proteobacteria]	pathogen	3	Burkholderia;Pseudomonas;Stenotrophomonas
+GCF_002812925.1	Pseudomonas aeruginosa	WP_031630419.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	2	Burkholderia;Pseudomonas
+GCF_002850175.1	Xanthomonas oryzae pv. oryzae	WP_101838499.1	hypothetical protein [Xanthomonas oryzae]	pathogen	3	Burkholderia;Pseudomonas;Xylella
+GCF_002863745.1	Acinetobacter pittii	WP_101663888.1	hypothetical protein [Acinetobacter pittii]	pathogen	4	Burkholderia;Enterobacter;Pseudomonas;Salmonella
+GCF_900070375.1	Pseudomonas aeruginosa	WP_003112446.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	3	Burkholderia;Pseudomonas;Serratia
+GCF_900074915.1	Pseudomonas cerasi	WP_065348939.1	hypothetical protein [Pseudomonas cerasi]	pathogen	2	Burkholderia;Pseudomonas
+GCF_900095805.1	Pseudomonas aeruginosa	WP_003111331.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_900185255.1	Pseudomonas aeruginosa C-NN2	WP_015670327.1	MULTISPECIES: hypothetical protein [Gammaproteobacteria]	pathogen	1	Burkholderia
+GCF_900185255.1	Pseudomonas aeruginosa C-NN2	WP_023087614.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_900185255.1	Pseudomonas aeruginosa C-NN2	WP_023121055.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_900243355.1	Pseudomonas aeruginosa	WP_010791839.1	MULTISPECIES: hypothetical protein [Proteobacteria]	pathogen	2	Burkholderia;Pseudomonas
+GCF_900243355.1	Pseudomonas aeruginosa	WP_014603116.1	MULTISPECIES: hypothetical protein [Pseudomonas]	pathogen	2	Burkholderia;Pseudomonas
+GCF_900243355.1	Pseudomonas aeruginosa	WP_023100580.1	hypothetical protein [Pseudomonas aeruginosa]	pathogen	1	Burkholderia
