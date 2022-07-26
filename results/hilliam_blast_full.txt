@@ -1,5 +1,4 @@
-qseqid	sseqid	evalue	pident	bitscore	qstart	qend	qlen	sstart	send	slen
-qseqid	sseqid	evalue	pident	bitscore	qstart	qend	qlen	sstart	send	slen
+qseqid	sseqid	piden	length	mismatch	gapopen	qstart	qend	sstart	send	evaluet	bitscore
 WP_003082503.1	59-C54_contig00033	100.000	319	0	0	1	319	65579	64623	0.0	589
 WP_003082503.1	6-C86_contig00002	100.000	319	0	0	1	319	77969	77013	0.0	588
 WP_003082503.1	44-C143_contig02546	100.000	319	0	0	1	319	54	1010	0.0	588
