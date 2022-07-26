@@ -1,4 +1,5 @@
-query_id        subject_id      pct_identity    aln_length      n_of_mismatches gap_openings    q_start q_end   s_start   s_end   e_value bit_score
+qseqid	sseqid	evalue	pident	bitscore	qstart	qend	qlen	sstart	send	slen
+qseqid	sseqid	evalue	pident	bitscore	qstart	qend	qlen	sstart	send	slen
 WP_003082503.1	59-C54_contig00033	100.000	319	0	0	1	319	65579	64623	0.0	589
 WP_003082503.1	6-C86_contig00002	100.000	319	0	0	1	319	77969	77013	0.0	588
 WP_003082503.1	44-C143_contig02546	100.000	319	0	0	1	319	54	1010	0.0	588
