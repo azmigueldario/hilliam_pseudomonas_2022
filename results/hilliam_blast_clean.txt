@@ -1,8 +1,4 @@
-# TBLASTN 2.12.0+
-# Query: WP_003082503.1 MULTISPECIES: clavaminate synthase family protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 189 hits found
+qseqid	sseqid	piden	length	mismatch	gapopen	qstart	qend	sstart	send	evalue	bitscore
 WP_003082503.1	59-C54_contig00033	100.000	319	0	0	1	319	65579	64623	0.0	589
 WP_003082503.1	6-C86_contig00002	100.000	319	0	0	1	319	77969	77013	0.0	588
 WP_003082503.1	44-C143_contig02546	100.000	319	0	0	1	319	54	1010	0.0	588
@@ -192,15 +188,6 @@ WP_003082503.1	81-A119_contig00004	99.373	319	2	0	1	319	265025	264069	0.0	583
 WP_003082503.1	41-B37_contig00001	99.373	319	2	0	1	319	648639	649595	0.0	582
 WP_003082503.1	21-C124_contig00081	99.060	319	3	0	1	319	11871	12827	0.0	582
 WP_003082503.1	35-C59_contig00001	99.422	173	1	0	147	319	67293	66775	1.04e-107	349
-# TBLASTN 2.12.0+
-# Query: WP_023121055.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_023087614.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_023087614.1	41-C126_contig02357	99.099	111	1	0	18	128	267	599	5.46e-64	198
 WP_023087614.1	44-C143_contig01335	99.099	111	1	0	18	128	800	1132	7.15e-61	199
 WP_023087614.1	59-A60_contig00135	100.000	111	0	0	18	128	1448	1116	5.76e-59	200
@@ -304,11 +291,6 @@ WP_023087614.1	37-C61_contig00002	98.198	111	2	0	18	128	639959	639627	7.96e-58	1
 WP_023087614.1	5-C82_contig00003	98.198	111	2	0	18	128	356735	357067	7.96e-58	196
 WP_023087614.1	22-C79_contig00002	98.198	111	2	0	18	128	482301	482633	7.96e-58	196
 WP_023087614.1	27-A2_contig00001	98.936	94	1	0	18	111	584723	585004	4.88e-57	194
-# TBLASTN 2.12.0+
-# Query: WP_015649664.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 43 hits found
 WP_015649664.1	41-C126_contig02852	98.639	147	2	0	1	147	91	531	4.15e-86	253
 WP_015649664.1	6-C86_contig00012	100.000	149	0	0	1	149	96397	96843	6.23e-80	261
 WP_015649664.1	4-C77_contig00011	100.000	149	0	0	1	149	110857	110411	6.23e-80	261
@@ -352,15 +334,6 @@ WP_015649664.1	60-C150_contig00009	97.987	149	3	0	1	149	136190	136636	9.38e-79	2
 WP_015649664.1	3-C76_contig00004	97.987	149	3	0	1	149	299736	300182	9.38e-79	258
 WP_015649664.1	82-C107_contig00004	97.987	149	3	0	1	149	344682	345128	9.38e-79	258
 WP_015649664.1	41-C126_contig00309	100.000	147	0	0	1	147	443	3	6.27e-78	255
-# TBLASTN 2.12.0+
-# Query: WP_015503905.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_009877656.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 55 hits found
 WP_009877656.1	41-C126_contig02754	98.980	98	1	0	1	98	135	428	6.09e-56	175
 WP_009877656.1	80-A107_contig01978	97.959	98	2	0	1	98	438	731	2.36e-54	173
 WP_009877656.1	85-A130_contig00041	100.000	98	0	0	1	98	12038	11745	4.42e-52	179
@@ -416,11 +389,6 @@ WP_009877656.1	78-A100_contig00001	100.000	98	0	0	1	98	399854	399561	1.46e-51	17
 WP_009877656.1	64-C73_contig00001	100.000	98	0	0	1	98	867616	867909	1.46e-51	177
 WP_009877656.1	78-C141_contig00001	100.000	98	0	0	1	98	491946	492239	3.39e-51	176
 WP_009877656.1	77-C139_contig00001	100.000	98	0	0	1	98	491946	492239	3.39e-51	176
-# TBLASTN 2.12.0+
-# Query: WP_009314782.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_009314782.1	41-C126_contig02357	100.000	111	0	0	18	128	267	599	1.98e-64	199
 WP_009314782.1	44-C143_contig01335	100.000	111	0	0	18	128	800	1132	3.36e-61	199
 WP_009314782.1	95-C167_contig00001	100.000	111	0	0	18	128	347886	348218	2.19e-59	201
@@ -524,11 +492,6 @@ WP_009314782.1	37-C61_contig00002	99.099	111	1	0	18	128	639959	639627	3.81e-58	1
 WP_009314782.1	5-C82_contig00003	99.099	111	1	0	18	128	356735	357067	3.81e-58	197
 WP_009314782.1	22-C79_contig00002	99.099	111	1	0	18	128	482301	482633	3.81e-58	197
 WP_009314782.1	27-A2_contig00001	100.000	94	0	0	18	111	584723	585004	2.40e-57	195
-# TBLASTN 2.12.0+
-# Query: WP_003143203.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 190 hits found
 WP_003143203.1	44-C143_contig00996	99.291	141	1	0	1	141	80	502	4.42e-78	246
 WP_003143203.1	16-C100_contig00001	100.000	141	0	0	1	141	329808	330230	2.15e-75	247
 WP_003143203.1	2-C155_contig00001	100.000	141	0	0	1	141	298770	298348	2.15e-75	247
@@ -719,11 +682,6 @@ WP_003143203.1	43-B113_contig00001	99.291	141	1	0	1	141	469951	470373	2.47e-74	2
 WP_003143203.1	27-A2_contig00004	98.582	141	2	0	1	141	157280	156858	6.25e-74	243
 WP_003143203.1	55-C42_contig00001	98.582	141	2	0	1	141	474605	475027	6.25e-74	243
 WP_003143203.1	27-C85_contig00003	97.857	140	3	0	2	141	384827	384408	4.03e-72	238
-# TBLASTN 2.12.0+
-# Query: WP_003133668.1 MULTISPECIES: alpha/beta fold hydrolase [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 189 hits found
 WP_003133668.1	44-C143_contig01372	99.010	202	2	0	1	202	981	1586	1.93e-125	368
 WP_003133668.1	4-C77_contig00004	100.000	204	0	0	1	204	84648	84037	5.07e-120	379
 WP_003133668.1	6-C86_contig00002	100.000	204	0	0	1	204	84648	84037	5.07e-120	379
@@ -913,11 +871,6 @@ WP_003133668.1	14-C94_contig00007	97.059	204	6	0	1	204	551224	550613	6.34e-116	3
 WP_003133668.1	46-C146_contig00001	97.059	204	6	0	1	204	474668	475279	6.34e-116	367
 WP_003133668.1	12-C147_contig00001	97.059	204	6	0	1	204	762853	762242	6.34e-116	367
 WP_003133668.1	80-A107_contig01734	99.355	155	1	0	1	155	695	1159	7.27e-91	275
-# TBLASTN 2.12.0+
-# Query: WP_003120798.1 MULTISPECIES: antibiotic biosynthesis monooxygenase [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 186 hits found
 WP_003120798.1	29-A19_contig00093	100.000	98	0	0	1	98	3694	3987	2.68e-60	202
 WP_003120798.1	16-C45_contig00116	100.000	98	0	0	1	98	3929	4222	2.70e-60	202
 WP_003120798.1	15-C44_contig00116	100.000	98	0	0	1	98	3929	4222	2.70e-60	202
@@ -1104,11 +1057,6 @@ WP_003120798.1	66-A77_contig00014	97.959	98	2	0	1	98	139284	138991	1.87e-59	199
 WP_003120798.1	77-A97_contig00013	97.959	98	2	0	1	98	139290	138997	1.87e-59	199
 WP_003120798.1	76-A95_contig00011	97.959	98	2	0	1	98	139290	138997	1.87e-59	199
 WP_003120798.1	43-B113_contig00003	97.959	98	2	0	1	98	365787	365494	4.02e-59	199
-# TBLASTN 2.12.0+
-# Query: WP_003120545.1 MULTISPECIES: phytanoyl-CoA dioxygenase family protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 190 hits found
 WP_003120545.1	29-A19_contig00037	100.000	292	0	0	1	292	3707	4582	0.0	604
 WP_003120545.1	96-C168_contig00002	100.000	292	0	0	1	292	273816	272941	0.0	603
 WP_003120545.1	96-A163_contig00306	100.000	292	0	0	1	292	1082	1957	0.0	603
@@ -1299,11 +1247,6 @@ WP_003120545.1	12-C147_contig00001	99.315	292	2	0	1	292	762242	761367	0.0	599
 WP_003120545.1	44-C143_contig03007	99.623	265	1	0	1	265	85	879	0.0	545
 WP_003120545.1	80-A107_contig02258	98.246	171	3	0	39	209	513	1	2.26e-122	350
 WP_003120545.1	80-A107_contig02358	100.000	91	0	0	1	91	273	1	2.38e-57	184
-# TBLASTN 2.12.0+
-# Query: WP_003116566.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 149 hits found
 WP_003116566.1	96-A163_contig00072	100.000	169	0	0	1	169	3248	3754	1.48e-104	333
 WP_003116566.1	16-C45_contig00045	100.000	169	0	0	1	169	25801	25295	1.49e-104	333
 WP_003116566.1	15-C44_contig00041	100.000	169	0	0	1	169	25801	25295	1.49e-104	333
@@ -1453,11 +1396,6 @@ WP_003116566.1	59-A60_contig00009	98.817	169	2	0	1	169	32486	31980	1.01e-102	328
 WP_003116566.1	43-B113_contig00012	98.225	169	3	0	1	169	137403	136897	1.16e-102	327
 WP_003116566.1	70-A82_contig00001	98.817	169	2	0	1	169	225789	225283	1.25e-102	327
 WP_003116566.1	44-C143_contig03863	100.000	135	0	0	1	135	407	3	8.52e-89	263
-# TBLASTN 2.12.0+
-# Query: WP_003109228.1 MULTISPECIES: alpha/beta fold hydrolase [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 189 hits found
 WP_003109228.1	44-C143_contig01372	100.000	202	0	0	1	202	981	1586	2.68e-127	372
 WP_003109228.1	44-B114_contig00001	100.000	204	0	0	1	204	749891	750502	5.75e-120	378
 WP_003109228.1	15-C44_contig00018	100.000	204	0	0	1	204	72404	71793	9.57e-120	378
@@ -1647,11 +1585,6 @@ WP_003109228.1	41-B37_contig00001	98.529	204	3	0	1	204	641960	642571	2.84e-117	3
 WP_003109228.1	7-C88_contig00001	98.529	204	3	0	1	204	599219	598608	5.87e-117	370
 WP_003109228.1	21-C124_contig00081	98.039	204	4	0	1	204	5192	5803	2.36e-116	368
 WP_003109228.1	80-A107_contig01734	100.000	155	0	0	1	155	695	1159	2.90e-92	278
-# TBLASTN 2.12.0+
-# Query: WP_003100688.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 190 hits found
 WP_003100688.1	44-C143_contig00996	98.582	141	2	0	1	141	80	502	2.21e-77	244
 WP_003100688.1	80-A107_contig00761	100.000	141	0	0	1	141	2103	2525	5.40e-76	248
 WP_003100688.1	42-C127_contig00002	100.000	141	0	0	1	141	530220	530642	1.12e-75	248
@@ -1842,11 +1775,6 @@ WP_003100688.1	43-B113_contig00001	98.582	141	2	0	1	141	469951	470373	9.13e-74	2
 WP_003100688.1	27-A2_contig00004	97.872	141	3	0	1	141	157280	156858	2.08e-73	242
 WP_003100688.1	55-C42_contig00001	97.872	141	3	0	1	141	474605	475027	2.08e-73	242
 WP_003100688.1	27-C85_contig00003	98.571	140	2	0	2	141	384827	384408	4.97e-73	241
-# TBLASTN 2.12.0+
-# Query: WP_003098728.1 MULTISPECIES: fucose-binding lectin LecB [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 165 hits found
 WP_003098728.1	41-C126_contig02875	100.000	115	0	0	1	115	154	498	3.20e-64	196
 WP_003098728.1	80-A107_contig01823	100.000	115	0	0	1	115	384	40	5.35e-62	196
 WP_003098728.1	45-C144_contig00246	100.000	115	0	0	1	115	1117	773	3.90e-61	196
@@ -2012,11 +1940,6 @@ WP_003098728.1	91-A147_contig00021	86.957	115	15	0	1	115	49888	49544	6.73e-51	17
 WP_003098728.1	87-A137_contig00016	86.957	115	15	0	1	115	73521	73177	6.73e-51	176
 WP_003098728.1	83-A123_contig00013	86.957	115	15	0	1	115	77533	77189	6.73e-51	176
 WP_003098728.1	81-A119_contig00014	86.957	115	15	0	1	115	77533	77189	6.73e-51	176
-# TBLASTN 2.12.0+
-# Query: WP_003098486.1 MULTISPECIES: TolB family protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 190 hits found
 WP_003098486.1	83-C109_contig00004	100.000	307	0	0	29	335	442559	441639	0.0	605
 WP_003098486.1	81-C105_contig00005	100.000	307	0	0	29	335	442430	441510	0.0	605
 WP_003098486.1	6-C86_contig00004	100.000	307	0	0	29	335	152992	153912	0.0	605
@@ -2207,11 +2130,6 @@ WP_003098486.1	21-C124_contig00055	99.163	239	2	0	29	267	1381	665	6.00e-147	462
 WP_003098486.1	39-C118_contig00014	86.179	246	27	3	29	269	47186	47917	3.04e-121	388
 WP_003098486.1	43-C129_contig00002	86.179	246	27	3	29	269	707110	706379	3.06e-121	388
 WP_003098486.1	88-C117_contig00002	86.179	246	27	3	29	269	630237	629506	3.06e-121	388
-# TBLASTN 2.12.0+
-# Query: WP_003097713.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 135 hits found
 WP_003097713.1	41-C126_contig02754	100.000	98	0	0	1	98	135	428	1.77e-56	176
 WP_003097713.1	80-A107_contig01978	98.980	98	1	0	1	98	438	731	6.11e-55	175
 WP_003097713.1	26-C84_contig00015	100.000	98	0	0	1	98	82551	82844	6.65e-52	178
@@ -2347,11 +2265,6 @@ WP_003097713.1	12-C147_contig00002	100.000	98	0	0	1	98	517408	517701	5.68e-51	17
 WP_003097713.1	19-C67_contig00002	100.000	98	0	0	1	98	69564	69857	5.68e-51	175
 WP_003097713.1	48-C66_contig00001	100.000	98	0	0	1	98	902772	902479	5.68e-51	175
 WP_003097713.1	20-C68_contig00001	100.000	98	0	0	1	98	902640	902347	5.68e-51	175
-# TBLASTN 2.12.0+
-# Query: WP_003091745.1 MULTISPECIES: fucose-binding lectin PA-IIL [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 48 hits found
 WP_003091745.1	41-C126_contig02876	99.130	115	1	0	1	115	154	498	1.90e-61	189
 WP_003091745.1	44-C143_contig00994	99.123	114	1	0	1	114	154	495	1.82e-56	188
 WP_003091745.1	6-C86_contig00022	100.000	114	0	0	1	114	84308	84649	8.28e-56	190
@@ -2400,11 +2313,6 @@ WP_003091745.1	7-C88_contig00010	97.368	114	3	0	1	114	200766	201107	6.38e-54	185
 WP_003091745.1	41-B37_contig00002	97.368	114	3	0	1	114	234049	234390	6.38e-54	185
 WP_003091745.1	41-C126_contig02875	86.087	115	16	0	1	115	154	498	2.33e-53	168
 WP_003091745.1	80-A107_contig01823	86.087	115	16	0	1	115	384	40	1.91e-51	169
-# TBLASTN 2.12.0+
-# Query: WP_003087135.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_003087135.1	41-C126_contig02357	99.123	114	1	0	15	128	258	599	4.38e-66	204
 WP_003087135.1	44-C143_contig01335	99.123	114	1	0	15	128	791	1132	6.45e-63	204
 WP_003087135.1	1-C3_contig00132	100.000	114	0	0	15	128	4597	4256	3.35e-61	206
@@ -2508,15 +2416,6 @@ WP_003087135.1	64-C73_contig00002	99.099	111	1	0	18	128	347996	348328	2.37e-58	1
 WP_003087135.1	96-C168_contig00002	99.099	111	1	0	18	128	527037	526705	2.37e-58	198
 WP_003087135.1	65-A76_contig00001	99.099	111	1	0	18	128	957999	957667	2.37e-58	198
 WP_003087135.1	26-A1_contig00001	99.099	111	1	0	18	128	606627	606295	2.37e-58	198
-# TBLASTN 2.12.0+
-# Query: WP_032657231.1 HEPN domain-containing protein [Pseudomonas syringae]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_016253705.1 MULTISPECIES: alpha/beta fold hydrolase [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 189 hits found
 WP_016253705.1	44-C143_contig01372	99.505	202	1	0	1	202	981	1586	9.38e-127	371
 WP_016253705.1	65-C74_contig00003	100.000	204	0	0	1	204	327893	327282	6.58e-120	378
 WP_016253705.1	44-B114_contig00001	99.510	204	1	0	1	204	749891	750502	1.46e-119	377
@@ -2706,11 +2605,6 @@ WP_016253705.1	41-B37_contig00001	98.039	204	4	0	1	204	641960	642571	7.12e-117	3
 WP_016253705.1	7-C88_contig00001	98.039	204	4	0	1	204	599219	598608	1.51e-116	369
 WP_016253705.1	21-C124_contig00081	97.549	204	5	0	1	204	5192	5803	5.58e-116	367
 WP_016253705.1	80-A107_contig01734	99.355	155	1	0	1	155	695	1159	9.51e-92	277
-# TBLASTN 2.12.0+
-# Query: WP_003159810.1 alpha/beta fold hydrolase [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 189 hits found
 WP_003159810.1	44-C143_contig01372	99.505	202	1	0	1	202	981	1586	2.12e-126	370
 WP_003159810.1	92-C160_contig00007	100.000	204	0	0	1	204	30299	29688	1.21e-119	377
 WP_003159810.1	61-C151_contig00005	100.000	204	0	0	1	204	294902	295513	1.21e-119	377
@@ -2900,11 +2794,6 @@ WP_003159810.1	41-B37_contig00001	98.039	204	4	0	1	204	641960	642571	2.81e-116	3
 WP_003159810.1	7-C88_contig00001	98.039	204	4	0	1	204	599219	598608	4.93e-116	367
 WP_003159810.1	21-C124_contig00081	97.549	204	5	0	1	204	5192	5803	1.89e-115	365
 WP_003159810.1	80-A107_contig01734	99.355	155	1	0	1	155	695	1159	3.29e-91	276
-# TBLASTN 2.12.0+
-# Query: WP_003116359.1 alpha/beta fold hydrolase [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 189 hits found
 WP_003116359.1	44-C143_contig01372	99.505	202	1	0	1	202	981	1586	6.70e-127	371
 WP_003116359.1	38-B3_contig00006	100.000	204	0	0	1	204	283012	282401	2.70e-120	379
 WP_003116359.1	73-A90_contig00030	100.000	204	0	0	1	204	44491	43880	3.33e-120	379
@@ -3094,19 +2983,6 @@ WP_003116359.1	46-C146_contig00001	97.549	204	5	0	1	204	474668	475279	2.73e-117	
 WP_003116359.1	12-C147_contig00001	97.549	204	5	0	1	204	762853	762242	2.73e-117	370
 WP_003116359.1	21-C124_contig00081	97.549	204	5	0	1	204	5192	5803	6.90e-116	367
 WP_003116359.1	80-A107_contig01734	100.000	155	0	0	1	155	695	1159	2.69e-92	278
-# TBLASTN 2.12.0+
-# Query: WP_020305107.1 hypothetical protein [Pseudomonas syringae]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_016263332.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_003146853.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 183 hits found
 WP_003146853.1	80-A107_contig01283	99.213	127	1	0	1	127	942	1322	9.70e-83	258
 WP_003146853.1	63-C71_contig00010	99.213	127	1	0	1	127	101368	101748	1.46e-79	259
 WP_003146853.1	39-C118_contig00009	99.213	127	1	0	1	127	223338	222958	1.46e-79	259
@@ -3290,11 +3166,6 @@ WP_003146853.1	49-C69_contig00010	96.581	117	4	0	11	127	103672	104022	6.44e-70	2
 WP_003146853.1	41-C126_contig03041	98.947	95	1	0	1	95	190	474	2.72e-64	196
 WP_003146853.1	16-C100_contig00003	96.809	94	3	0	34	127	216286	216005	5.15e-63	187
 WP_003146853.1	41-C126_contig03094	92.632	95	7	0	1	95	286	2	1.88e-59	184
-# TBLASTN 2.12.0+
-# Query: WP_025325125.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 11 hits found
 WP_025325125.1	16-C45_contig00154	96.970	99	3	0	1	99	3723	4019	1.36e-58	197
 WP_025325125.1	15-C44_contig00153	96.970	99	3	0	1	99	1138	842	1.36e-58	197
 WP_025325125.1	56-C43_contig00138	96.970	99	3	0	1	99	1142	846	1.36e-58	197
@@ -3306,11 +3177,6 @@ WP_025325125.1	41-C126_contig00069	93.684	95	6	0	1	95	5214	4930	1.70e-54	186
 WP_025325125.1	42-C127_contig00002	93.684	95	6	0	1	95	376978	376694	1.72e-54	186
 WP_025325125.1	22-C128_contig00002	93.684	95	6	0	1	95	438461	438177	1.72e-54	186
 WP_025325125.1	59-C54_contig00040	93.814	97	5	1	1	96	47450	47740	2.45e-54	185
-# TBLASTN 2.12.0+
-# Query: WP_021265158.1 MULTISPECIES: TolB family protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 190 hits found
 WP_021265158.1	41-B37_contig00002	100.000	307	0	0	29	335	489227	490147	0.0	605
 WP_021265158.1	27-A2_contig00004	100.000	307	0	0	29	335	44514	45434	0.0	605
 WP_021265158.1	90-C158_contig00006	99.674	307	1	0	29	335	166758	167678	0.0	603
@@ -3501,15 +3367,6 @@ WP_021265158.1	21-C124_contig00055	99.163	239	2	0	29	267	1381	665	6.87e-147	462
 WP_021265158.1	39-C118_contig00014	86.179	246	27	3	29	269	47186	47917	3.19e-121	388
 WP_021265158.1	43-C129_contig00002	86.179	246	27	3	29	269	707110	706379	3.21e-121	388
 WP_021265158.1	88-C117_contig00002	86.179	246	27	3	29	269	630237	629506	3.21e-121	388
-# TBLASTN 2.12.0+
-# Query: WP_017682906.1 MULTISPECIES: hypothetical protein [Pseudomonas syringae group]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_021264538.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_021264538.1	41-C126_contig02357	100.000	97	0	0	15	111	258	548	1.83e-64	199
 WP_021264538.1	44-C143_contig01335	100.000	97	0	0	15	111	791	1081	1.55e-61	200
 WP_021264538.1	27-A2_contig00001	100.000	112	0	0	18	129	584723	585058	8.16e-60	202
@@ -3613,11 +3470,6 @@ WP_021264538.1	64-C73_contig00002	98.969	97	1	0	15	111	347987	348277	2.22e-58	19
 WP_021264538.1	96-C168_contig00002	98.969	97	1	0	15	111	527046	526756	2.22e-58	198
 WP_021264538.1	65-A76_contig00001	98.969	97	1	0	15	111	958008	957718	2.22e-58	198
 WP_021264538.1	26-A1_contig00001	98.969	97	1	0	15	111	606636	606346	2.22e-58	198
-# TBLASTN 2.12.0+
-# Query: NP_249911.1 hypothetical protein PA1220 [Pseudomonas aeruginosa PAO1]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 192 hits found
 NP_249911.1	8-C89_contig00001	99.762	420	1	0	1	420	770258	771517	0.0	728
 NP_249911.1	79-A106_contig00004	99.286	420	3	0	1	420	276037	274778	0.0	728
 NP_249911.1	77-A97_contig00006	99.286	420	3	0	1	420	16283	17542	0.0	728
@@ -3810,15 +3662,6 @@ NP_249911.1	80-A107_contig01734	99.138	232	2	0	189	420	3	698	2.69e-118	353
 NP_249911.1	80-A107_contig00020	99.355	155	1	0	1	155	11220	11684	8.85e-95	316
 NP_249911.1	4-C10_contig00309	99.291	141	1	0	280	420	6558	6136	3.41e-73	254
 NP_249911.1	96-A163_contig00306	99.291	141	1	0	280	420	52	474	3.88e-73	253
-# TBLASTN 2.12.0+
-# Query: WP_023114185.1 MULTISPECIES: hypothetical protein [Proteobacteria]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_015670327.1 MULTISPECIES: hypothetical protein [Proteobacteria]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 11 hits found
 WP_015670327.1	80-A107_contig00789	88.372	129	15	0	1	129	1574	1960	1.02e-65	218
 WP_015670327.1	79-A106_contig00055	88.372	129	15	0	1	129	17090	17476	1.75e-65	218
 WP_015670327.1	77-A97_contig00040	88.372	129	15	0	1	129	15123	15509	1.75e-65	218
@@ -3830,32 +3673,10 @@ WP_015670327.1	72-A86_contig00039	88.372	129	15	0	1	129	1272	886	1.75e-65	218
 WP_015670327.1	68-A80_contig00027	88.372	129	15	0	1	129	17800	18186	1.75e-65	218
 WP_015670327.1	66-A77_contig00024	88.372	129	15	0	1	129	7852	8238	1.75e-65	218
 WP_015670327.1	71-A85_contig00026	88.350	103	12	0	1	103	309	1	6.79e-51	177
-# TBLASTN 2.12.0+
-# Query: WP_031630419.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 4 hits found
 WP_031630419.1	41-B37_contig00013	100.000	245	0	0	1	245	105411	106145	1.90e-147	460
 WP_031630419.1	35-C106_contig00042	97.143	245	7	0	1	245	20876	20142	9.71e-143	446
 WP_031630419.1	36-C108_contig00002	97.143	245	7	0	1	245	195635	194901	9.81e-143	446
 WP_031630419.1	73-C18_contig00001	97.143	245	7	0	1	245	110782	111516	9.82e-143	446
-# TBLASTN 2.12.0+
-# Query: WP_010791839.1 MULTISPECIES: hypothetical protein [Proteobacteria]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_088922342.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_073937587.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_014603116.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_014603116.1	41-C126_contig02357	100.000	114	0	0	15	128	258	599	1.27e-66	205
 WP_014603116.1	44-C143_contig01335	100.000	114	0	0	15	128	791	1132	2.09e-63	205
 WP_014603116.1	6-C13_contig00041	100.000	114	0	0	15	128	11492	11151	5.54e-61	206
@@ -3959,11 +3780,6 @@ WP_014603116.1	64-C73_contig00002	99.099	111	1	0	18	128	347996	348328	2.44e-58	1
 WP_014603116.1	96-C168_contig00002	99.099	111	1	0	18	128	527037	526705	2.44e-58	198
 WP_014603116.1	65-A76_contig00001	99.099	111	1	0	18	128	957999	957667	2.44e-58	198
 WP_014603116.1	26-A1_contig00001	99.099	111	1	0	18	128	606627	606295	2.44e-58	198
-# TBLASTN 2.12.0+
-# Query: WP_023092030.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_023092030.1	41-C126_contig02357	99.099	111	1	0	18	128	267	599	1.51e-63	197
 WP_023092030.1	44-C143_contig01335	99.099	111	1	0	18	128	800	1132	1.74e-60	197
 WP_023092030.1	95-C167_contig00001	99.099	111	1	0	18	128	347886	348218	1.28e-58	199
@@ -4067,15 +3883,6 @@ WP_023092030.1	37-C61_contig00002	98.198	111	2	0	18	128	639959	639627	2.45e-57	1
 WP_023092030.1	5-C82_contig00003	98.198	111	2	0	18	128	356735	357067	2.45e-57	195
 WP_023092030.1	22-C79_contig00002	98.198	111	2	0	18	128	482301	482633	2.45e-57	195
 WP_023092030.1	27-A2_contig00001	98.936	94	1	0	18	111	584723	585004	1.47e-56	193
-# TBLASTN 2.12.0+
-# Query: WP_021204956.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_003111331.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_003111331.1	41-C126_contig02357	100.000	111	0	0	18	128	267	599	1.98e-64	199
 WP_003111331.1	44-C143_contig01335	100.000	111	0	0	18	128	800	1132	3.36e-61	199
 WP_003111331.1	95-C167_contig00001	100.000	111	0	0	18	128	347886	348218	2.19e-59	201
@@ -4179,21 +3986,7 @@ WP_003111331.1	37-C61_contig00002	99.099	111	1	0	18	128	639959	639627	3.81e-58	1
 WP_003111331.1	5-C82_contig00003	99.099	111	1	0	18	128	356735	357067	3.81e-58	197
 WP_003111331.1	22-C79_contig00002	99.099	111	1	0	18	128	482301	482633	3.81e-58	197
 WP_003111331.1	27-A2_contig00001	100.000	94	0	0	18	111	584723	585004	2.40e-57	195
-# TBLASTN 2.12.0+
-# Query: WP_012076638.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_003114923.1 MULTISPECIES: hypothetical protein [Pseudomonas]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 1 hits found
 WP_003114923.1	4-C10_contig01181	96.939	98	3	0	1	98	559	852	2.28e-51	167
-# TBLASTN 2.12.0+
-# Query: WP_003112446.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 192 hits found
 WP_003112446.1	8-C89_contig00001	99.762	420	1	0	1	420	770258	771517	0.0	728
 WP_003112446.1	79-A106_contig00004	99.286	420	3	0	1	420	276037	274778	0.0	728
 WP_003112446.1	77-A97_contig00006	99.286	420	3	0	1	420	16283	17542	0.0	728
@@ -4386,11 +4179,6 @@ WP_003112446.1	80-A107_contig01734	99.138	232	2	0	189	420	3	698	2.69e-118	353
 WP_003112446.1	80-A107_contig00020	99.355	155	1	0	1	155	11220	11684	8.85e-95	316
 WP_003112446.1	4-C10_contig00309	99.291	141	1	0	280	420	6558	6136	3.41e-73	254
 WP_003112446.1	96-A163_contig00306	99.291	141	1	0	280	420	52	474	3.88e-73	253
-# TBLASTN 2.12.0+
-# Query: WP_003111505.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 190 hits found
 WP_003111505.1	41-B37_contig00002	100.000	125	0	0	1	125	25264	24890	7.41e-82	265
 WP_003111505.1	4-C10_contig01088	95.200	125	6	0	1	125	37	411	1.06e-81	250
 WP_003111505.1	75-C135_contig00005	99.200	125	1	0	1	125	299656	300030	2.03e-81	264
@@ -4581,11 +4369,6 @@ WP_003111505.1	49-C69_contig00006	95.200	125	6	0	1	125	303488	303862	6.63e-77	25
 WP_003111505.1	96-A163_contig00016	97.521	121	3	0	5	125	46212	45850	5.27e-75	245
 WP_003111505.1	30-A36_contig00013	97.521	121	3	0	5	125	46218	45856	5.29e-75	245
 WP_003111505.1	58-C51_contig00002	97.521	121	3	0	5	125	471374	471012	5.29e-75	245
-# TBLASTN 2.12.0+
-# Query: WP_060852920.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_060852920.1	41-C126_contig02357	99.123	114	1	0	15	128	258	599	2.00e-65	202
 WP_060852920.1	44-C143_contig01335	99.123	114	1	0	15	128	791	1132	3.54e-62	202
 WP_060852920.1	42-B62_contig00001	99.123	114	1	0	15	128	564725	564384	7.10e-60	202
@@ -4689,15 +4472,6 @@ WP_060852920.1	64-C73_contig00002	98.198	111	2	0	18	128	347996	348328	2.29e-57	1
 WP_060852920.1	96-C168_contig00002	98.198	111	2	0	18	128	527037	526705	2.29e-57	195
 WP_060852920.1	65-A76_contig00001	98.198	111	2	0	18	128	957999	957667	2.29e-57	195
 WP_060852920.1	26-A1_contig00001	98.198	111	2	0	18	128	606627	606295	2.29e-57	195
-# TBLASTN 2.12.0+
-# Query: WP_003104007.1 MULTISPECIES: hypothetical protein [Proteobacteria]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_043085375.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_043085375.1	41-C126_contig02357	99.099	111	1	0	18	128	267	599	8.09e-64	198
 WP_043085375.1	44-C143_contig01335	99.099	111	1	0	18	128	800	1132	1.27e-60	198
 WP_043085375.1	95-C167_contig00001	99.099	111	1	0	18	128	347886	348218	6.11e-59	200
@@ -4801,15 +4575,6 @@ WP_043085375.1	37-C61_contig00002	98.198	111	2	0	18	128	639959	639627	1.17e-57	1
 WP_043085375.1	5-C82_contig00003	98.198	111	2	0	18	128	356735	357067	1.17e-57	196
 WP_043085375.1	22-C79_contig00002	98.198	111	2	0	18	128	482301	482633	1.17e-57	196
 WP_043085375.1	27-A2_contig00001	98.936	94	1	0	18	111	584723	585004	8.07e-57	194
-# TBLASTN 2.12.0+
-# Query: WP_031299072.1 MULTISPECIES: hypothetical protein [Pseudomonadaceae]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_034047840.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_034047840.1	41-C126_contig02357	99.099	111	1	0	18	128	267	599	6.54e-74	223
 WP_034047840.1	44-C143_contig01335	99.099	111	1	0	18	128	800	1132	9.22e-71	224
 WP_034047840.1	95-C167_contig00001	99.099	111	1	0	18	128	347886	348218	6.38e-68	225
@@ -4913,11 +4678,6 @@ WP_034047840.1	37-C61_contig00002	98.198	111	2	0	18	128	639959	639627	8.32e-67	2
 WP_034047840.1	5-C82_contig00003	98.198	111	2	0	18	128	356735	357067	8.32e-67	222
 WP_034047840.1	22-C79_contig00002	98.198	111	2	0	18	128	482301	482633	8.32e-67	222
 WP_034047840.1	27-A2_contig00001	98.148	108	2	0	18	125	584723	585046	3.34e-65	218
-# TBLASTN 2.12.0+
-# Query: WP_034024452.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 192 hits found
 WP_034024452.1	46-B199_contig00010	98.571	420	6	0	1	420	70291	69032	0.0	688
 WP_034024452.1	18-C119_contig00026	98.571	420	6	0	1	420	70291	69032	0.0	688
 WP_034024452.1	45-B191_contig00001	98.571	420	6	0	1	420	592988	591729	0.0	687
@@ -5110,23 +4870,9 @@ WP_034024452.1	80-A107_contig01734	97.845	232	5	0	189	420	3	698	6.85e-117	350
 WP_034024452.1	80-A107_contig00020	98.710	155	2	0	1	155	11220	11684	2.34e-94	315
 WP_034024452.1	4-C10_contig00309	98.582	141	2	0	280	420	6558	6136	1.53e-73	254
 WP_034024452.1	96-A163_contig00306	98.582	141	2	0	280	420	52	474	1.78e-73	254
-# TBLASTN 2.12.0+
-# Query: WP_033983778.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_031690985.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 3 hits found
 WP_031690985.1	55-C42_contig00001	96.429	224	7	1	1	223	545962	545291	4.73e-141	440
 WP_031690985.1	27-A2_contig00006	94.643	224	11	1	1	223	365364	366035	1.63e-138	432
 WP_031690985.1	23-C131_contig00003	93.750	224	13	1	1	223	486976	486305	2.47e-136	426
-# TBLASTN 2.12.0+
-# Query: WP_031294923.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 103 hits found
 WP_031294923.1	41-C126_contig02357	100.000	114	0	0	4	117	258	599	8.15e-67	205
 WP_031294923.1	44-C143_contig01335	100.000	114	0	0	4	117	791	1132	1.14e-63	205
 WP_031294923.1	6-C13_contig00041	100.000	114	0	0	4	117	11492	11151	2.97e-61	206
@@ -5230,11 +4976,6 @@ WP_031294923.1	64-C73_contig00002	99.099	111	1	0	7	117	347996	348328	1.17e-58	19
 WP_031294923.1	96-C168_contig00002	99.099	111	1	0	7	117	527037	526705	1.17e-58	198
 WP_031294923.1	65-A76_contig00001	99.099	111	1	0	7	117	957999	957667	1.17e-58	198
 WP_031294923.1	26-A1_contig00001	99.099	111	1	0	7	117	606627	606295	1.17e-58	198
-# TBLASTN 2.12.0+
-# Query: WP_031277798.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 19 hits found
 WP_031277798.1	2-C4_contig00011	98.661	224	3	0	1	224	73906	74577	4.30e-149	463
 WP_031277798.1	1-C3_contig00003	98.661	224	3	0	1	224	86937	87608	4.30e-149	463
 WP_031277798.1	67-C5_contig00013	98.661	224	3	0	1	224	91139	90468	4.30e-149	463
@@ -5254,31 +4995,5 @@ WP_031277798.1	78-C141_contig00057	79.018	224	47	0	1	224	4013	4684	7.68e-116	366
 WP_031277798.1	77-C139_contig00058	79.018	224	47	0	1	224	808	137	7.68e-116	366
 WP_031277798.1	49-C69_contig00034	79.018	224	47	0	1	224	2814	3485	3.02e-115	366
 WP_031277798.1	44-C143_contig00443	77.397	146	33	0	1	146	2350	2787	1.24e-72	241
-# TBLASTN 2.12.0+
-# Query: WP_025391106.1 hypothetical protein [Pseudomonas syringae]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_023464354.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_023100580.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_023098761.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_017684899.1 hypothetical protein [Pseudomonas syringae]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# 0 hits found
-# TBLASTN 2.12.0+
-# Query: WP_003111133.1 hypothetical protein [Pseudomonas aeruginosa]
-# Database: /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies
-# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
-# 2 hits found
 WP_003111133.1	96-A163_contig00023	100.000	259	0	0	1	259	18248	19024	3.90e-175	539
 WP_003111133.1	30-A36_contig00020	100.000	259	0	0	1	259	51429	50653	3.93e-175	539
-# BLAST processed 61 queries
