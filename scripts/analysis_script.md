@@ -215,8 +215,8 @@ singularity run -B /home -B /project -B /scratch -B /localscratch:/temp
 ```
 After having the singularity container ready, we can assemble our genomes. 
 
-### Tips to run assembly jobs
 
+### Tips to run assembly jobs on Cedar (CC)
 
 - Assembly is a resource intensive job that requires that the data is available in memory for processing. So it is necessary to allocate enough ram per CPU to handle the size of each genome. 
 - Also, a part of the available memory should be saved (~4GB) for additional processes or the OS. 
@@ -282,46 +282,145 @@ done
 
 ## QC of assembly
 
-```sh
-# load QUAST and dependencies
-module load StdEnv/2020 gcc/9.3.0 quast/5.0.2
+### Quast 
 
+We will use QUAST to generate genome assembly metrics. Before running it, we need to download the reference genome for Pseudomonas aeruginosa (PA1). The output directory is specified with the option `-P`
+
+```sh
+
+# genomic fasta
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/496/605/GCF_000496605.2_ASM49660v2/GCF_000496605.2_ASM49660v2_genomic.fna.gz -P /project/6056895/mdprieto/hilliam_pseudomonas/pseudomonas_pa1_reference
+
+# genomic coordinates annotation
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/496/605/GCF_000496605.2_ASM49660v2/GCF_000496605.2_ASM49660v2_genomic.gff.gz -P /project/6056895/mdprieto/hilliam_pseudomonas/pseudomonas_pa1_reference
 ```
-
-## BLAST of pathogen associated genes
-
-The pathogen associated genes are stored in a file of the git folder prepared of a BLAST results txt file. 
-
-awk command to extract only the necessary pathogen associated genes of *Pseudomonas aeruginosa*
-
-- `NR==1` extract column headers
-- `$2 ~ /Pseudomonas aeruginosa/ && $5 ~ /pathogen/` matches the columns "genome_name" and "pathogen_association" to the strings
-- `-F '\t'` specifies that its a tab delimited file
-
-```sh
-# base file = burkholderia_pseudomonas_pags.txt 
-
-awk -F '\t' 'NR==1 || ( $2 ~ /Pseudomonas aeruginosa/ && $5 ~ /pathogen/)' burkholderia_pseudomonas_pags.txt > pseudomonas_pags.txt
-
-# install ncbi E-utilities to download fasta for PAGs
-cd ~ | \ 
-	sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
-
-
-# prepare a fasta file with all PAGs
-# 56 PAGs were found after de-duplication of access numbers
-/home/mdprieto/edirect/epost -db protein -input /home/mdprieto/git/hilliam_pseudomonas_2022/accession_pags.txt | \ 
-	/home/mdprieto/edirect/efetch -format fasta > pags_fasta.fa
-
-``` 
-
-### BLAST PAG in newly assembled genomes
+Now, we run quast with and without reference genome. With reference genome we obtain basic assembly measures and metrics of coverage against the curated assembly. Without a reference, we would obtain only the basic measures. 
 
 ```sh
 #!/bin/bash
 #SBATCH --account=def-whsiao-ab
-#SBATCH --mem-per-cpu=12G #  GB of memory per cpu core
-#SBATCH --time=00:20:00
+#SBATCH --mem-per-cpu=4G #  GB of memory per cpu core
+#SBATCH --time=00:30:00
+#SBATCH --ntasks=1 # tasks in parallel
+#SBATCH --cpus-per-task=8 # CPU cores per task
+#SBATCH --job-name="quast_hilliam"
+#SBATCH --chdir=/scratch/mdprieto/
+#SBATCH --output=quast_hilliam.out
+
+###########################################################################
+
+# ----------------------- preparation
+
+# load QUAST module and dependencies
+module load StdEnv/2020 gcc/9.3.0 quast/5.0.2
+
+# define internal variables
+genome_fasta="/project/6056895/mdprieto/hilliam_pseudomonas/pseudomonas_pa1_reference/GCF_000496605.2_ASM49660v2_genomic.fna.gz"
+genome_gff="/project/6056895/mdprieto/hilliam_pseudomonas/pseudomonas_pa1_reference/GCF_000496605.2_ASM49660v2_genomic.gff.gz"
+contigs_dir="/scratch/mdprieto/results_hilliam/sample_contigs"
+output_dir="/scratch/mdprieto/results_hilliam/quast"
+
+# ----------------------- quast no reference genome
+
+quast.py $contigs_dir/*.fa \
+			-r $genome_fasta \
+			-g $genome_gff \
+			-o $output_dir \
+			--threads 7
+
+```
+
+### CheckM
+
+**CheckM** infers the quality of the genome assembly based on the presence and uniqueness of these sets of gene markers. It determines the completeness (coverage of reference genome) and the contamination of the input draft genomes.
+
+**CheckM** is not available in the CC cluster. To install it, we create a virtual environment of python in our home directory. After loading the interpreter, we load the `scipy-stack` module that contains necessary python dependencies (matplotlib and numpy). Also, we load a set of bioinformatic tools dependencies (pplacer, prodigal and hmmer). 
+
+```sh
+# ----------------------- load dependencies
+
+module load python/3.10.2 scipy-stack
+module load pplacer/1.1.alpha19 prodigal/2.6.3 hmmer/3.2.1
+
+```
+It is ideal to create virtual environment in your home or project directory. Here, we create the `checkm_genome_env` in the home dir and install other python dependencies inside. Once that is ready, we install `checkm` from the packages adjusted to the CC cluster by adding the option `--no-index`.
+
+CheckM also requires precalculated data files, so we download them and set them up so the tool recognizes the PATH to them. 
+
+```sh
+
+cd ~
+virtualenv --no-download checkm_genome_env
+
+source ~/checkm_genome_env/bin/activate
+pip install --no-index pysam
+pip install --no-index checkm_genome
+
+# unpack precalculated data files
+mkdir -p /home/mdprieto/checkm_genome_env/data 
+cd /home/mdprieto/checkm_genome_env/data
+wget https://data.ace.uq.edu.au/public/CheckM_databases/checkm_data_2015_01_16.tar.gz
+tar -xzf checkm_data_2015_01_16.tar.gz
+# tell program where data was unpacked
+export CHECKM_DATA_PATH=/home/mdprieto/checkm_genome_env/data
+checkm data setRoot /home/mdprieto/checkm_genome_env/data
+```
+
+Run job
+
+```sh
+
+module load python/3.10.2 scipy-stack
+module load pplacer/1.1.alpha19 prodigal/2.6.3 hmmer/3.2.1
+source ~/checkm_genome_env/bin/activate
+```
+
+
+## BLAST of pathogen associated genes
+
+The pathogen associated genes are stored in a file in the git repo (`burkholderia_pseudomonas_pags.tx`). 
+
+We use `awk` to extract only the pathogen associated genes (PAGs) of *Pseudomonas* spp. 
+
+In the code, `NR==1` signals awk to extract the first line with the headers, `$2 ~ /Pseudomonas aeruginosa/ && $5 ~ /pathogen/` matches string to columns, and `-F '\t'` specifies that the file is tab delimited. We then use cut, tail and sort to extract the accession numbers, eliminate headers and keep only unique identifiers respectively. 
+
+```sh
+# change to the git folder with all primary input
+cd /home/mdprieto/git/hilliam_pseudomonas_2022/
+
+awk -F '\t' 'NR==1 || ( $2 ~ /Pseudomonas/ && $5 ~ /pathogen/)' burkholderia_pseudomonas_pags.txt | \
+	cut -f 3 | \
+	tail -n +2 | \
+	sort -u > accession_pags.txt
+
+``` 
+
+We also use the NCBI e-utilities in order to get the aminoacid sequences for each of the PAGs proteins in fasta format. A collaborator provided two additional fasta files with sequences of proteins of interest, so we add them to our main file before running BLAST.
+
+```sh
+# install ncbi E-utilities in home dir
+cd ~ | sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
+
+# save unique PAGs in a new txt file
+/home/mdprieto/edirect/epost \
+	-db protein \
+	-format acc \
+	-input /home/mdprieto/git/hilliam_pseudomonas_2022/accession_pags.txt | \
+/home/mdprieto/edirect/efetch \
+	-format fasta > /home/mdprieto/git/hilliam_pseudomonas_2022/pags.fasta &
+
+```
+
+### BLAST PAG in newly assembled genomes
+
+In order to run BLAST+ against our assembly files, we need to transform each assembly into a database that can be searched by BLAST. Thus, we create a list of all the contigs files from the resulting assemblies and create a BLAST database for each. Finally, we merge all these databases into a single one using `blastdb_aliastool` 
+
+```sh
+
+#!/bin/bash
+#SBATCH --account=def-whsiao-ab
+#SBATCH --mem-per-cpu=10G #  GB of memory per cpu core
+#SBATCH --time=00:30:00
 #SBATCH --ntasks=1 # tasks in parallel
 #SBATCH --cpus-per-task=1 # CPU cores per task
 #SBATCH --job-name="blast_preparation"
@@ -329,18 +428,17 @@ cd ~ | \
 #SBATCH --output=blast_preparation.out
 
 ###########################################################################
+################################ preparation
 
 # load blast+ module
-
 module purge
 module load StdEnv/2020  gcc/9.3.0 blast+/2.12.0
 
-# ---------------- create pathway variables
-
+# create pathway variables
 blast_db="/scratch/mdprieto/results_hilliam/blastdb"
 contigs_dir="/scratch/mdprieto/results_hilliam/sample_contigs"
 
-# ---------------- new directory with sample name appended to the contigs
+# new directory with sample name appended to the contigs
 # finds 'contigs.fa' filenames downstream
 # appends 'sample_name' to each 'contigs.fa' in a new folder 'sample_contigs'
 
@@ -361,17 +459,15 @@ for i in `ls $contigs_dir`
 	head -n 5 $i
 	done
 	
-
 grep -oE '[0-9]{1,3}-[ABC][0-9]*'
 
 # ---------------- make blast database for each genome
-# create and move to working directory
 
+# create and move to working directory
 mkdir -p $blast_db
 cd $blast_db
 
 # create individual databases for each sample_contig
-
 for i in `ls $contigs_dir`
 	do 
 	assembly="$contigs_dir/$i"
@@ -387,11 +483,9 @@ for i in `ls $contigs_dir`
 # ---------------- create unified database for all sample contigs
 
 # lists all blast db in folder with output of path only
-
 blastdbcmd -list $blast_db -list_outfmt '%f' > blast_databases.txt 
 
-# now, given the text file with all databases, it creates a virtual database merging all	
-
+# now, given the text file with all databases, it creates a virtual database merging all
 blastdb_aliastool \
 	-dblist_file $blast_db/blast_databases.txt \
 	-dbtype nucl \
@@ -400,7 +494,8 @@ blastdb_aliastool \
 	
 ```
 
-Script to run the tblastn, protein to nucleotide BLAST
+In the following script we will run BLAST+ to align the known PAGs to the genome assemblies from an external dataset (Hilliam-2017). Using the merged database created in the previous step, we run tblastn (protein to nucleotide)
+using as query (to search) sequences a fasta file containing the protein sequence for all PAGs. 
 
 ```sh
 
@@ -420,57 +515,41 @@ Script to run the tblastn, protein to nucleotide BLAST
 module purge
 module load StdEnv/2020  gcc/9.3.0 blast+/2.12.0
 	
-tblastn -query /home/mdprieto/git/hilliam_pseudomonas_2022/pags_fasta.fa \
+tblastn -query /home/mdprieto/git/hilliam_pseudomonas_2022/pags.fasta \
 	-db /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies \
 	-show_gis \
-	-outfmt 6 \
+	-outfmt "7" \
 	-out /scratch/mdprieto/hilliam_blast_full.txt \
 	-evalue 1e-50 \
 	-num_threads 4 \
 	-max_hsps 1
+
+# blast of additional proteins by collaborator
+blastn \
+	-query /home/mdprieto/git/hilliam_pseudomonas_2022/patrick_pags.fasta \
+	-db /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies \
+	-show_gis \
+	-outfmt "7" \
+	-out /scratch/mdprieto/patrick_blast.txt \
+	-evalue 1e-50 \
+	-num_threads 4 \
+	-max_hsps 1 
 ```
-
-
-
-## Download sample data from NCBI PRJNA764577
-
-Requires the SRA Toolkit and accession numbers for each sample from the project. The accesion numbers can be searched in NCBI, for example in this project I obtained the list of samples from <https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SAMN21530348&o=acc_s%3Aa>
-
-The SRA-toolkit is available in compute canada 
+Finally, we move the results to our git repo directory and produce clean versions with headers.
 
 ```sh
-# requirements for sra-toolkit
-module load StdEnv/2020  gcc/9.3.0
+# copy to git repo for project
+cd ~/scratch
+cp patrick_blast.txt hilliam_blast_full.txt ~/git/hilliam_pseudomonas_2022/results/
 
-module load sra-toolkit/3.0.0
+# clean format and add headers
+cd ~/git/hilliam_pseudomonas_2022/results/
+grep --invert-match "^#" hilliam_blast_full.txt | \
+	sed '1s/^/qseqid\tsseqid\tpiden\tlength\tmismatch\tgapopen\tqstart\tqend\tsstart\tsend\tevalue\tbitscore\n/' \
+	> hilliam_blast_clean.txt
 
-# run configuration
-vdb-config --interactive
-```
-
-All the accession numbers were saved in a file `acc_list.txt`. 
-
-```sh
-
-# runs prefetch to download data for each accession number in the list
-for i in  $(cat acc_list.txt) 
-do 
-echo "started dowload of $i" 
-prefetch "$i"
-echo "finished download of $i" 
-done
-
-# downloads SRA format to save space
-# we use faster q dump to transform them into raw fastq files
-
-for i in  $(cat acc_list.txt) 
-do 
-echo "started building fastq of $i" 
-fasterq-dump "$i"
-echo "finished building fastq $i" 
-done
-
-# remaining directories with .sra files can be deleted in working directory
-rm -ri ./*/
+grep --invert-match "^#" patrick_blast.txt | \
+	sed '1s/^/qseqid\tsseqid\tpiden\tlength\tmismatch\tgapopen\tqstart\tqend\tsstart\tsend\tevalue\tbitscore\n/' \
+	> patrick_blast_clean.txt	
 
 ```
