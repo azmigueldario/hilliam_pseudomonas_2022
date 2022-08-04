@@ -278,6 +278,19 @@ do
     echo "Finished assembly of sample"
 done
 
+######################## create new dir with assemblies #############################
+
+contigs_dir="/scratch/mdprieto/results_hilliam/sample_contigs"
+
+# new directory with sample name appended to the contigs
+# finds 'contigs.fa' filenames downstream
+# appends 'sample_name' to each 'contigs.fa' in a new folder 'sample_contigs'
+
+mkdir -p $contigs_dir
+for i in `find /scratch/mdprieto/results_hilliam/shovill -name "contigs.fa"`
+   do cp -n $i $contigs_dir/`echo $i| awk -F/ '{print $6 "_" $7}' `
+done
+
 ```
 
 ## QC of assembly
@@ -337,18 +350,14 @@ quast.py $contigs_dir/*.fa \
 **CheckM** is not available in the CC cluster. To install it, we create a virtual environment of python in our home directory. After loading the interpreter, we load the `scipy-stack` module that contains necessary python dependencies (matplotlib and numpy). Also, we load a set of bioinformatic tools dependencies (pplacer, prodigal and hmmer). 
 
 ```sh
-# ----------------------- load dependencies
-
 module load python/3.10.2 scipy-stack
 module load pplacer/1.1.alpha19 prodigal/2.6.3 hmmer/3.2.1
-
 ```
 It is ideal to create virtual environment in your home or project directory. Here, we create the `checkm_genome_env` in the home dir and install other python dependencies inside. Once that is ready, we install `checkm` from the packages adjusted to the CC cluster by adding the option `--no-index`.
 
 CheckM also requires precalculated data files, so we download them and set them up so the tool recognizes the PATH to them. 
 
 ```sh
-
 cd ~
 virtualenv --no-download checkm_genome_env
 
@@ -361,6 +370,7 @@ mkdir -p /home/mdprieto/checkm_genome_env/data
 cd /home/mdprieto/checkm_genome_env/data
 wget https://data.ace.uq.edu.au/public/CheckM_databases/checkm_data_2015_01_16.tar.gz
 tar -xzf checkm_data_2015_01_16.tar.gz
+
 # tell program where data was unpacked
 export CHECKM_DATA_PATH=/home/mdprieto/checkm_genome_env/data
 checkm data setRoot /home/mdprieto/checkm_genome_env/data
@@ -370,9 +380,35 @@ Run job
 
 ```sh
 
-module load python/3.10.2 scipy-stack
-module load pplacer/1.1.alpha19 prodigal/2.6.3 hmmer/3.2.1
-source ~/checkm_genome_env/bin/activate
+#!/bin/bash
+#SBATCH --account=def-whsiao-ab
+#SBATCH --mem-per-cpu=12G #  GB of memory per cpu core
+#SBATCH --time=00:15:00
+#SBATCH --ntasks=1 # tasks in parallel
+#SBATCH --cpus-per-task=4 # CPU cores per task
+#SBATCH --job-name="assembly_qc_checkm"
+#SBATCH --chdir=/scratch/mdprieto/
+#SBATCH --output=checkm_hilliam.out
+
+###################################	preparation ##############################
+
+module load python/3.10.2 scipy-stack 	# load python dependencies
+module load pplacer/1.1.alpha19 prodigal/2.6.3 hmmer/3.2.1 # load other dependencies
+source ~/checkm_genome_env/bin/activate # activate environment with checkm
+contigs_dir="/scratch/mdprieto/results_hilliam/sample_contigs" # path to dir with assemblies
+
+# make dir for results and save into variable
+mkdir -p /scratch/mdprieto/results_hilliam/checkm 
+output_dir="/scratch/mdprieto/results_hilliam/checkm"
+
+# save marker set for P. aeruginosa
+checkm taxon_set species Pseudomonas aeruginosa $output_dir/pseudomonas.ms
+
+##################################   analyze  #################################
+
+checkm analyze $output_dir/pseudomonas.ms <bin folder> <output folder>
+(M) > checkm qa <marker file> <output folder>
+
 ```
 
 
@@ -438,14 +474,6 @@ module load StdEnv/2020  gcc/9.3.0 blast+/2.12.0
 blast_db="/scratch/mdprieto/results_hilliam/blastdb"
 contigs_dir="/scratch/mdprieto/results_hilliam/sample_contigs"
 
-# new directory with sample name appended to the contigs
-# finds 'contigs.fa' filenames downstream
-# appends 'sample_name' to each 'contigs.fa' in a new folder 'sample_contigs'
-
-mkdir -p $contigs_dir
-for i in `find /scratch/mdprieto/results_hilliam/shovill -name "contigs.fa"`
-   do cp -n $i $contigs_dir/`echo $i| awk -F/ '{print $6 "_" $7}' `
-done
 
 # ---------------- add isolate ID to each contig
 # finds sequence headers starting with > and adds the isolate ID before contig

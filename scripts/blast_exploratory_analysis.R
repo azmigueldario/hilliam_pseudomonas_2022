@@ -17,7 +17,7 @@ library(tidyverse)
 # set working directory and load data set
 setwd("~/work_research/git/bioinformatics/hilliam_pseudomonas_2022/results")
 
-# load 63 PAGs dataset
+# load 61 PAGs dataset
 blast_dat <- read_tsv(file = "hilliam_blast_clean.txt",
                       show_col_types = T,
                       col_types = "ffdddddddddd")
@@ -29,11 +29,13 @@ patrick_dat <- read_tsv(file = "patrick_blast_clean.txt",
 
 ############################## Exploratory analysis
 
+# from the 61 PAGs
 blast_dat %>% 
   count(qseqid) %>% 
   mutate(prop = round(n/190, 2)) %>% 
   arrange(desc(n)) %>% 
   view()
+
 
 patrick_dat %>% 
   count(qseqid) %>% 
