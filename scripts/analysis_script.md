@@ -1,5 +1,4 @@
 # Analysis of pathogen associated genes in Pseudomonas spp. 
-July 8, 2022
 
 Analysis is conducted in `cedar.computecanada.ca` referred as ***CC***. The dataset is in directory `/project/6056895/mdprieto/hilliam_pseudomonas/bronchiectasis_reads`
 
@@ -353,9 +352,9 @@ quast.py $contigs_dir/*.fa \
 module load python/3.10.2 scipy-stack
 module load pplacer/1.1.alpha19 prodigal/2.6.3 hmmer/3.2.1
 ```
-It is ideal to create virtual environment in your home or project directory. Here, we create the `checkm_genome_env` in the home dir and install other python dependencies inside. Once that is ready, we install `checkm` from the packages adjusted to the CC cluster by adding the option `--no-index`.
+Is best practice to create virtual environment in your home or project directory. I create `checkm_genome_env` in the home dir; python dependencies are installed after loading environment. The `--no-index` option for python libraries installs those optimized for the compute canada cluster. 
 
-CheckM also requires precalculated data files, so we download them and set them up so the tool recognizes the PATH to them. 
+__CheckM__ requires precalculated data files, which we download to a directory recognized by the tool. 
 
 ```sh
 cd ~
@@ -382,32 +381,48 @@ Run job
 
 #!/bin/bash
 #SBATCH --account=def-whsiao-ab
-#SBATCH --mem-per-cpu=12G #  GB of memory per cpu core
-#SBATCH --time=00:15:00
+#SBATCH --mem-per-cpu=8G #  GB of memory per cpu core
+#SBATCH --time=04:00:00
 #SBATCH --ntasks=1 # tasks in parallel
-#SBATCH --cpus-per-task=4 # CPU cores per task
+#SBATCH --cpus-per-task=12 # CPU cores per task
 #SBATCH --job-name="assembly_qc_checkm"
 #SBATCH --chdir=/scratch/mdprieto/
 #SBATCH --output=checkm_hilliam.out
 
-###################################	preparation ##############################
+###################################     preparation ##############################
 
-module load python/3.10.2 scipy-stack 	# load python dependencies
+module load python/3.10.2 scipy-stack   # load python dependencies
 module load pplacer/1.1.alpha19 prodigal/2.6.3 hmmer/3.2.1 # load other dependencies
 source ~/checkm_genome_env/bin/activate # activate environment with checkm
 contigs_dir="/scratch/mdprieto/results_hilliam/sample_contigs" # path to dir with assemblies
 
-# make dir for results and save into variable
-mkdir -p /scratch/mdprieto/results_hilliam/checkm 
+# make dir for results and save PATH into variable
+mkdir -p /scratch/mdprieto/results_hilliam/checkm
 output_dir="/scratch/mdprieto/results_hilliam/checkm"
 
-# save marker set for P. aeruginosa
-checkm taxon_set species Pseudomonas aeruginosa $output_dir/pseudomonas.ms
+# select marker set for P. aeruginosa
+checkm taxon_set species 'Pseudomonas aeruginosa' $output_dir/pseudomonas.ms
+date
 
 ##################################   analyze  #################################
 
-checkm analyze $output_dir/pseudomonas.ms <bin folder> <output folder>
-(M) > checkm qa <marker file> <output folder>
+# analyze completeness and contamination of 190 assemblies
+checkm analyze \
+        $output_dir/pseudomonas.ms `#file with checkm marker set for assemblies` \
+        $contigs_dir `#dir with assemblies in fasta format` \
+        $output_dir `#output directory` \
+        -x fa `#extension of assemblies` \
+        -t 12 `#number of threads for parallel processing`
+date
+
+# produce summary
+checkm qa \
+        $output_dir/pseudomonas.ms `#file with checkm marker set for assemblies` \
+        $output_dir `#output directory` \
+        --file $output_dir/checkm_output.tsv \
+        --tab_table \
+        --threads 12
+date
 
 ```
 
@@ -442,7 +457,7 @@ cd ~ | sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/instal
 	-db protein \
 	-format acc \
 	-input /home/mdprieto/git/hilliam_pseudomonas_2022/accession_pags.txt | \
-/home/mdprieto/edirect/efetch \
+	/home/mdprieto/edirect/efetch \
 	-format fasta > /home/mdprieto/git/hilliam_pseudomonas_2022/pags.fasta &
 
 ```
@@ -552,7 +567,7 @@ tblastn -query /home/mdprieto/git/hilliam_pseudomonas_2022/pags.fasta \
 	-num_threads 4 \
 	-max_hsps 1
 
-# blast of additional proteins by collaborator
+# blast of additional proteins by collaborator (Patrick)
 blastn \
 	-query /home/mdprieto/git/hilliam_pseudomonas_2022/patrick_pags.fasta \
 	-db /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies \
@@ -580,4 +595,41 @@ grep --invert-match "^#" patrick_blast.txt | \
 	sed '1s/^/qseqid\tsseqid\tpiden\tlength\tmismatch\tgapopen\tqstart\tqend\tsstart\tsend\tevalue\tbitscore\n/' \
 	> patrick_blast_clean.txt	
 
+```
+
+### Analysis of functional groups in BLAST hits
+
+To select optimal candidates for in-vitro evaluation in Aim2, we look for PAGs with transcriptional regulator activity among our hits. 
+
+In our local machine, I set up the capacity to run multiple searches in `InterProScan` database. Requires installation of Java and running the `Install certificates.command` for our python version.
+
+Using `vim`, I pasted the IDs of the PAGs that were found in all the cohort (96 patients) and saved it in `list_pags_all_samples.txt`. Then, using the `seqtk` utility, I create a new fasta file including only these interesting proteins. 
+
+```sh
+# work inside an environment and install dependencies
+conda create -name interpro
+conda activate interpro
+pip3 install xmltramp2 requests
+
+# install EMBI REST handler and interproscan script
+git clone https://github.com/ebi-wp/webservice-clients.git
+wget https://raw.githubusercontent.com/ebi-wp/webservice-clients/master/python/iprscan5.py
+
+# one liner to extract 30 sequences in a file (limit for InterPro)
+awk "/^>/ {n++} n>30 {exit} {print}" input_fasta > output_fasta
+
+# new fasta with only PAGs found in all patients
+seqtk subseq pags.fasta list_pags_all_samples.txt > pags_all_samples.fa
+
+# run search
+# options to output tsv, name output file, and reduce verbosity
+python3 iprscan5.py \
+	--sequence hilliam_pseudomonas_2022/pags_all_samples.fa \
+	--email azmigueldario@gmail.com \
+	--outformat tsv \
+	--outfile results_interpro.tsv \
+	--quiet &
+  
+# close environment once finished
+conda deactivate interpro
 ```
