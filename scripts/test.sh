@@ -1,18 +1,23 @@
 
-OUTPUT_DIR="/scratch/mdprieto/results_hilliam/shovill"
-INPUT_DIR="/project/6056895/mdprieto/hilliam_pseudomonas/bronchiectasis_reads"
+# load QUAST module and dependencies
+module load StdEnv/2020 gcc/9.3.0 quast/5.0.2
 
-################################## shovill #########################################
+# define internal variables
+genome_fasta="/project/6056895/mdprieto/hilliam_pseudomonas/pseudomonas_pa1_reference/GCF_000496605.2_ASM49660v2_genomic.fna.gz"
+genome_gff="/project/6056895/mdprieto/hilliam_pseudomonas/pseudomonas_pa1_reference/	GCF_000496605.2_ASM49660v2_genomic.gff.gz"
+contigs_dir="/scratch/mdprieto/results_hilliam/sample_contigs"
+output_dir="/scratch/mdprieto/results_hilliam/quast"
 
-for file1 in $(ls $INPUT_DIR/*R1*fastq.gz)
+# ----------------------- quast no reference genome
 
-do
-    file2=${file1/R1/R2}
-    trimmed=${file1/R1/R0}
-    out_dir_sample=$(echo $file1 | grep -o '[0-9]*-C[0-9]*') 
-    singularity exec $BIND_MOUNT shovill.sif shovill --R1 $file1 --R2 $file2 \
-    --outdir $OUTPUT_DIR/$out_dir_sample \
-    --opts "-s $trimmed" \
-    --force \
-    --ram 180
-done
+echo quast.py $contigs_dir/*.fa \
+			-o $output_dir \
+			--threads 6
+
+# ----------------------- quast no reference genome
+
+echo quast.py $contigs_dir/*.fa \
+			-r $genome_fasta \
+			-g $genome_gff \
+			-o $output_dir \
+			--threads 6
