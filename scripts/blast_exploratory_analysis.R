@@ -143,7 +143,7 @@ heatmap_plot<- heatmap_dat %>%
   theme(axis.text.y = element_blank(),
         axis.text.x = element_blank(),
         axis.ticks = element_blank(),
-        axis.title = element_text(size=18, face = "bold"),
+        axis.title = element_text(size=16, face = "bold"),
         legend.title = element_blank(),
         legend.text = element_text(size=12)) +
   scale_x_discrete(guide = guide_axis(n.dodge = 1)); heatmap_plot
@@ -173,7 +173,7 @@ hist_plot<- heatmap_dat %>%
              fill=n)) +
   geom_col() +
   labs(x = "Pathogen Associated Genes",
-       y = "Percentage of detection in 190 isolates") +
+       y = "Percentage of detection \nin 190 isolates") +
   theme(axis.text.x = element_blank(),
         axis.title = element_text(size=16, face = "bold"),
         axis.ticks.x = element_blank(),
@@ -183,7 +183,7 @@ hist_plot<- heatmap_dat %>%
 
 # save in high quality
 CairoTIFF(file = "histogram_pag.tiff",
-          width = 1500,
+          width = 1600,
           height = 1200,
           pointsize = 5,
           dpi = 320, 
