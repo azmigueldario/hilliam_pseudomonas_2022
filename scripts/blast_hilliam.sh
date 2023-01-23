@@ -14,11 +14,22 @@
 module purge
 module load StdEnv/2020  gcc/9.3.0 blast+/2.12.0
 	
-tblastn -query /home/mdprieto/git/hilliam_pseudomonas_2022/pags_fasta.fa \
+tblastn -query /home/mdprieto/git/hilliam_pseudomonas_2022/pags.fasta \
 	-db /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies \
 	-show_gis \
-	-outfmt 6 \
+	-outfmt "7" \
 	-out /scratch/mdprieto/hilliam_blast_full.txt \
 	-evalue 1e-50 \
 	-num_threads 4 \
 	-max_hsps 1
+
+# blast of additional proteins by collaborator
+blastn \
+	-query /home/mdprieto/git/hilliam_pseudomonas_2022/pags.fasta \
+	-db /scratch/mdprieto/results_hilliam/blastdb/hilliam_assemblies \
+	-show_gis \
+	-outfmt "7" \
+	-out /scratch/mdprieto/patrick_blast.txt \
+	-evalue 1e-50 \
+	-num_threads 4 \
+	-max_hsps 
